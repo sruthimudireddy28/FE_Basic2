@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\AuthService\\Controllers",
+    "\\AuthService\\DTOs",
+    "\\LoyaltyService\\DTOs",
+    "\\PaymentService\\DTOs",
+    "\\ReviewService\\DTOs"
+  ],
+  "SelectedNode": "\\SmartHotelBooking.slnx",
+  "PreviewInSolutionExplorer": false
+}

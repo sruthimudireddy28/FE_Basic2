@@ -1,0 +1,17 @@
+﻿using AuthService.DTOs;
+using AuthService.Models;
+using SharedLibrary.DTOs;
+
+namespace AuthService.Services
+{
+    public interface IUserService
+    {
+        Task<ApiResponse<LoginResponseDto>> LoginAsync(LoginRequestDto request);
+        Task<ApiResponse<UserResponseDto>> RegisterAsync(RegisterRequestDto request);
+        Task<ApiResponse<List<UserResponseDto>>> GetAllUsersAsync();
+        Task<ApiResponse<UserResponseDto>> GetUserByIdAsync(int userId);
+        Task<ApiResponse<UserResponseDto>> UpdateUserAsync(int userId, UpdateUserDto request);
+        Task<ApiResponse> DeleteUserAsync(int userId);
+        Task<ApiResponse<UserResponseDto>> GetUserByEmailAsync(string email);
+    }
+}

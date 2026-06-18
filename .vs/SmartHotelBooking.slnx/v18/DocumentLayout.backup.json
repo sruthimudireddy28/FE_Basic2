@@ -1,0 +1,213 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\sddr\\fincl\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6CDAB7B3-DE4F-6FF5-06F0-D824F083F1AF}|AuthService\\AuthService.csproj|c:\\users\\2492212\\onedrive - cognizant\\desktop\\sddr\\fincl\\authservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CDAB7B3-DE4F-6FF5-06F0-D824F083F1AF}|AuthService\\AuthService.csproj|solutionrelative:authservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CDAB7B3-DE4F-6FF5-06F0-D824F083F1AF}|AuthService\\AuthService.csproj|c:\\users\\2492212\\onedrive - cognizant\\desktop\\sddr\\fincl\\authservice\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CDAB7B3-DE4F-6FF5-06F0-D824F083F1AF}|AuthService\\AuthService.csproj|solutionrelative:authservice\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABE66B30-BD47-A7B2-B17B-5BA67959B026}|ApiGateway\\ApiGateway.csproj|c:\\users\\2492212\\onedrive - cognizant\\desktop\\sddr\\fincl\\apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABE66B30-BD47-A7B2-B17B-5BA67959B026}|ApiGateway\\ApiGateway.csproj|solutionrelative:apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABE66B30-BD47-A7B2-B17B-5BA67959B026}|ApiGateway\\ApiGateway.csproj|c:\\users\\2492212\\onedrive - cognizant\\desktop\\sddr\\fincl\\apigateway\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ABE66B30-BD47-A7B2-B17B-5BA67959B026}|ApiGateway\\ApiGateway.csproj|solutionrelative:apigateway\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABE66B30-BD47-A7B2-B17B-5BA67959B026}|ApiGateway\\ApiGateway.csproj|c:\\users\\2492212\\onedrive - cognizant\\desktop\\sddr\\fincl\\apigateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ABE66B30-BD47-A7B2-B17B-5BA67959B026}|ApiGateway\\ApiGateway.csproj|solutionrelative:apigateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80003E3-DADE-42C5-C61D-D3F306C64617}|LoyaltyService\\LoyaltyService.csproj|c:\\users\\2492212\\onedrive - cognizant\\desktop\\sddr\\fincl\\loyaltyservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D80003E3-DADE-42C5-C61D-D3F306C64617}|LoyaltyService\\LoyaltyService.csproj|solutionrelative:loyaltyservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80003E3-DADE-42C5-C61D-D3F306C64617}|LoyaltyService\\LoyaltyService.csproj|c:\\users\\2492212\\onedrive - cognizant\\desktop\\sddr\\fincl\\loyaltyservice\\services\\iloyaltyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D80003E3-DADE-42C5-C61D-D3F306C64617}|LoyaltyService\\LoyaltyService.csproj|solutionrelative:loyaltyservice\\services\\iloyaltyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80003E3-DADE-42C5-C61D-D3F306C64617}|LoyaltyService\\LoyaltyService.csproj|c:\\users\\2492212\\onedrive - cognizant\\desktop\\sddr\\fincl\\loyaltyservice\\controllers\\loyaltycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D80003E3-DADE-42C5-C61D-D3F306C64617}|LoyaltyService\\LoyaltyService.csproj|solutionrelative:loyaltyservice\\controllers\\loyaltycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80003E3-DADE-42C5-C61D-D3F306C64617}|LoyaltyService\\LoyaltyService.csproj|c:\\users\\2492212\\onedrive - cognizant\\desktop\\sddr\\fincl\\loyaltyservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D80003E3-DADE-42C5-C61D-D3F306C64617}|LoyaltyService\\LoyaltyService.csproj|solutionrelative:loyaltyservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80003E3-DADE-42C5-C61D-D3F306C64617}|LoyaltyService\\LoyaltyService.csproj|c:\\users\\2492212\\onedrive - cognizant\\desktop\\sddr\\fincl\\loyaltyservice\\services\\loyaltymanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D80003E3-DADE-42C5-C61D-D3F306C64617}|LoyaltyService\\LoyaltyService.csproj|solutionrelative:loyaltyservice\\services\\loyaltymanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CDAB7B3-DE4F-6FF5-06F0-D824F083F1AF}|AuthService\\AuthService.csproj|c:\\users\\2492212\\onedrive - cognizant\\desktop\\sddr\\fincl\\authservice\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CDAB7B3-DE4F-6FF5-06F0-D824F083F1AF}|AuthService\\AuthService.csproj|solutionrelative:authservice\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CDAB7B3-DE4F-6FF5-06F0-D824F083F1AF}|AuthService\\AuthService.csproj|c:\\users\\2492212\\onedrive - cognizant\\desktop\\sddr\\fincl\\authservice\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CDAB7B3-DE4F-6FF5-06F0-D824F083F1AF}|AuthService\\AuthService.csproj|solutionrelative:authservice\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\sddr\\fincl\\ApiGateway\\appsettings.json",
+              "RelativeDocumentMoniker": "ApiGateway\\appsettings.json",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\sddr\\fincl\\ApiGateway\\appsettings.json",
+              "RelativeToolTip": "ApiGateway\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-11T10:45:52.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\sddr\\fincl\\AuthService\\Program.cs",
+              "RelativeDocumentMoniker": "AuthService\\Program.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\sddr\\fincl\\AuthService\\Program.cs",
+              "RelativeToolTip": "AuthService\\Program.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T10:42:59.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\sddr\\fincl\\ApiGateway\\Program.cs",
+              "RelativeDocumentMoniker": "ApiGateway\\Program.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\sddr\\fincl\\ApiGateway\\Program.cs",
+              "RelativeToolTip": "ApiGateway\\Program.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T07:36:26.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\sddr\\fincl\\LoyaltyService\\Program.cs",
+              "RelativeDocumentMoniker": "LoyaltyService\\Program.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\sddr\\fincl\\LoyaltyService\\Program.cs",
+              "RelativeToolTip": "LoyaltyService\\Program.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAswHMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T07:26:03.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\sddr\\fincl\\LoyaltyService\\appsettings.json",
+              "RelativeDocumentMoniker": "LoyaltyService\\appsettings.json",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\sddr\\fincl\\LoyaltyService\\appsettings.json",
+              "RelativeToolTip": "LoyaltyService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-10T07:23:57.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\sddr\\fincl\\AuthService\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AuthService\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\sddr\\fincl\\AuthService\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AuthService\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwC8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T06:41:53.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\sddr\\fincl\\ApiGateway\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ApiGateway\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\sddr\\fincl\\ApiGateway\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ApiGateway\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-11T10:46:02.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ILoyaltyService.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\sddr\\fincl\\LoyaltyService\\Services\\ILoyaltyService.cs",
+              "RelativeDocumentMoniker": "LoyaltyService\\Services\\ILoyaltyService.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\sddr\\fincl\\LoyaltyService\\Services\\ILoyaltyService.cs",
+              "RelativeToolTip": "LoyaltyService\\Services\\ILoyaltyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T06:51:53.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoyaltyManagementService.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\sddr\\fincl\\LoyaltyService\\Services\\LoyaltyManagementService.cs",
+              "RelativeDocumentMoniker": "LoyaltyService\\Services\\LoyaltyManagementService.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\sddr\\fincl\\LoyaltyService\\Services\\LoyaltyManagementService.cs",
+              "RelativeToolTip": "LoyaltyService\\Services\\LoyaltyManagementService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T06:51:34.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoyaltyController.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\sddr\\fincl\\LoyaltyService\\Controllers\\LoyaltyController.cs",
+              "RelativeDocumentMoniker": "LoyaltyService\\Controllers\\LoyaltyController.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\sddr\\fincl\\LoyaltyService\\Controllers\\LoyaltyController.cs",
+              "RelativeToolTip": "LoyaltyService\\Controllers\\LoyaltyController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAHEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T06:42:15.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\sddr\\fincl\\AuthService\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "AuthService\\Services\\IUserService.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\sddr\\fincl\\AuthService\\Services\\IUserService.cs",
+              "RelativeToolTip": "AuthService\\Services\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T06:42:08.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\sddr\\fincl\\AuthService\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "AuthService\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\sddr\\fincl\\AuthService\\Services\\UserService.cs",
+              "RelativeToolTip": "AuthService\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T06:41:58.54Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

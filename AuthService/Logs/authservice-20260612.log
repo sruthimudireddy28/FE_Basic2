@@ -1,0 +1,7 @@
+2026-06-12 11:51:39.534 +05:30 [INF] AuthService | Starting Auth Service...
+2026-06-12 11:51:45.820 +05:30 [INF] AuthService | JWT configured with Issuer: SmartHotelBooking
+2026-06-12 11:51:48.303 +05:30 [INF] AuthService | Auth Service started successfully on port 5001
+2026-06-12 11:51:49.518 +05:30 [INF] AuthService | Now listening on: http://localhost:5001
+2026-06-12 11:51:49.827 +05:30 [INF] AuthService | Application started. Press Ctrl+C to shut down.
+2026-06-12 11:51:49.860 +05:30 [INF] AuthService | Hosting environment: Development
+2026-06-12 11:51:49.885 +05:30 [INF] AuthService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\AuthService

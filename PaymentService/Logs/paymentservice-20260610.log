@@ -1,0 +1,12 @@
+2026-06-10 10:13:36.266 +05:30 [INF] PaymentService | Starting Payment Service...
+2026-06-10 10:13:44.545 +05:30 [INF] PaymentService | Payment Service started successfully on port 5005
+2026-06-10 10:13:47.656 +05:30 [INF] PaymentService | Now listening on: http://localhost:5005
+2026-06-10 10:13:48.708 +05:30 [INF] PaymentService | Application started. Press Ctrl+C to shut down.
+2026-06-10 10:13:49.231 +05:30 [INF] PaymentService | Hosting environment: Development
+2026-06-10 10:13:49.823 +05:30 [INF] PaymentService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\PaymentService
+2026-06-10 12:08:52.174 +05:30 [INF] PaymentService | Starting Payment Service...
+2026-06-10 12:08:56.165 +05:30 [INF] PaymentService | Payment Service started successfully on port 5005
+2026-06-10 12:08:57.033 +05:30 [INF] PaymentService | Now listening on: http://localhost:5005
+2026-06-10 12:08:57.212 +05:30 [INF] PaymentService | Application started. Press Ctrl+C to shut down.
+2026-06-10 12:08:57.237 +05:30 [INF] PaymentService | Hosting environment: Development
+2026-06-10 12:08:57.250 +05:30 [INF] PaymentService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\PaymentService

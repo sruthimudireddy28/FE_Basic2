@@ -1,0 +1,29 @@
+2026-05-30 16:45:51.153 +05:30 [INF] HotelService | Starting Hotel Service...
+2026-05-30 16:45:51.558 +05:30 [INF] HotelService | Hotel Service started successfully on port 5002
+2026-05-30 16:45:51.686 +05:30 [INF] HotelService | Now listening on: http://localhost:5002
+2026-05-30 16:45:51.694 +05:30 [INF] HotelService | Application started. Press Ctrl+C to shut down.
+2026-05-30 16:45:51.698 +05:30 [INF] HotelService | Hosting environment: Development
+2026-05-30 16:45:51.703 +05:30 [INF] HotelService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\final project\HotelService
+2026-05-30 16:51:34.759 +05:30 [INF] HotelService | Application is shutting down...
+2026-05-30 17:06:00.580 +05:30 [INF] HotelService | Starting Hotel Service...
+2026-05-30 17:06:00.817 +05:30 [FTL] HotelService | Hotel Service failed to start
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\2492212\OneDrive - Cognizant\Desktop\final project\HotelService\Program.cs:line 94
+2026-05-30 17:10:11.870 +05:30 [INF] HotelService | Starting Hotel Service...
+2026-05-30 17:10:12.314 +05:30 [INF] HotelService | Hotel Service started successfully on port 5002
+2026-05-30 17:10:12.462 +05:30 [INF] HotelService | Now listening on: http://localhost:5002
+2026-05-30 17:10:12.472 +05:30 [INF] HotelService | Application started. Press Ctrl+C to shut down.
+2026-05-30 17:10:12.477 +05:30 [INF] HotelService | Hosting environment: Development
+2026-05-30 17:10:12.481 +05:30 [INF] HotelService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\final project\HotelService
+2026-05-30 17:29:08.414 +05:30 [INF] HotelService | Starting Hotel Service...
+2026-05-30 17:29:08.866 +05:30 [INF] HotelService | Hotel Service started successfully on port 5002
+2026-05-30 17:29:08.994 +05:30 [INF] HotelService | Now listening on: http://localhost:5002
+2026-05-30 17:29:09.004 +05:30 [INF] HotelService | Application started. Press Ctrl+C to shut down.
+2026-05-30 17:29:09.007 +05:30 [INF] HotelService | Hosting environment: Development
+2026-05-30 17:29:09.010 +05:30 [INF] HotelService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\final project\HotelService

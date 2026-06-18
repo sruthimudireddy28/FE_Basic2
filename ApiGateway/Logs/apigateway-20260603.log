@@ -1,0 +1,18 @@
+2026-06-03 08:33:24.610 +05:30 [INF] ApiGateway | Starting API Gateway...
+2026-06-03 08:33:32.130 +05:30 [INF] ApiGateway | API Gateway started successfully on port 5000
+2026-06-03 08:33:35.737 +05:30 [INF] ApiGateway | Now listening on: http://localhost:5000
+2026-06-03 08:33:37.288 +05:30 [INF] ApiGateway | Application started. Press Ctrl+C to shut down.
+2026-06-03 08:33:37.808 +05:30 [INF] ApiGateway | Hosting environment: Development
+2026-06-03 08:33:37.896 +05:30 [INF] ApiGateway | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\ApiGateway
+2026-06-03 11:50:49.671 +05:30 [INF] ApiGateway | Starting API Gateway...
+2026-06-03 11:50:53.679 +05:30 [INF] ApiGateway | API Gateway started successfully on port 5000
+2026-06-03 11:50:55.366 +05:30 [INF] ApiGateway | Now listening on: http://localhost:5000
+2026-06-03 11:50:55.698 +05:30 [INF] ApiGateway | Application started. Press Ctrl+C to shut down.
+2026-06-03 11:50:55.752 +05:30 [INF] ApiGateway | Hosting environment: Development
+2026-06-03 11:50:55.755 +05:30 [INF] ApiGateway | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\ApiGateway
+2026-06-03 17:42:24.666 +05:30 [INF] ApiGateway | Starting API Gateway...
+2026-06-03 17:42:30.438 +05:30 [INF] ApiGateway | API Gateway started successfully on port 5000
+2026-06-03 17:42:32.469 +05:30 [INF] ApiGateway | Now listening on: http://localhost:5000
+2026-06-03 17:42:32.908 +05:30 [INF] ApiGateway | Application started. Press Ctrl+C to shut down.
+2026-06-03 17:42:32.914 +05:30 [INF] ApiGateway | Hosting environment: Development
+2026-06-03 17:42:32.928 +05:30 [INF] ApiGateway | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\ApiGateway

@@ -1,0 +1,40 @@
+2026-06-05 08:41:31.016 +05:30 [INF] ReviewService | Starting Review Service...
+2026-06-05 08:41:37.937 +05:30 [INF] ReviewService | Review Service started successfully on port 5006
+2026-06-05 08:41:40.236 +05:30 [INF] ReviewService | Now listening on: http://localhost:5006
+2026-06-05 08:41:40.889 +05:30 [INF] ReviewService | Application started. Press Ctrl+C to shut down.
+2026-06-05 08:41:40.971 +05:30 [INF] ReviewService | Hosting environment: Development
+2026-06-05 08:41:41.162 +05:30 [INF] ReviewService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\ReviewService
+2026-06-05 08:44:29.167 +05:30 [INF] ReviewService | Starting Review Service...
+2026-06-05 08:44:34.906 +05:30 [INF] ReviewService | Review Service started successfully on port 5006
+2026-06-05 08:44:37.200 +05:30 [INF] ReviewService | Now listening on: http://localhost:5006
+2026-06-05 08:44:37.382 +05:30 [INF] ReviewService | Application started. Press Ctrl+C to shut down.
+2026-06-05 08:44:37.538 +05:30 [INF] ReviewService | Hosting environment: Development
+2026-06-05 08:44:37.652 +05:30 [INF] ReviewService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\ReviewService
+2026-06-05 09:25:43.796 +05:30 [INF] ReviewService | Starting Review Service...
+2026-06-05 09:25:50.532 +05:30 [INF] ReviewService | Review Service started successfully on port 5006
+2026-06-05 09:25:51.865 +05:30 [INF] ReviewService | Now listening on: http://localhost:5006
+2026-06-05 09:25:52.238 +05:30 [INF] ReviewService | Application started. Press Ctrl+C to shut down.
+2026-06-05 09:25:52.261 +05:30 [INF] ReviewService | Hosting environment: Development
+2026-06-05 09:25:52.308 +05:30 [INF] ReviewService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\ReviewService
+2026-06-05 10:28:08.070 +05:30 [INF] ReviewService | Starting Review Service...
+2026-06-05 10:28:12.393 +05:30 [INF] ReviewService | Review Service started successfully on port 5006
+2026-06-05 10:28:13.115 +05:30 [INF] ReviewService | Now listening on: http://localhost:5006
+2026-06-05 10:28:13.257 +05:30 [INF] ReviewService | Application started. Press Ctrl+C to shut down.
+2026-06-05 10:28:13.261 +05:30 [INF] ReviewService | Hosting environment: Development
+2026-06-05 10:28:13.269 +05:30 [INF] ReviewService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\ReviewService
+2026-06-05 14:10:55.329 +05:30 [INF] ReviewService | Starting Review Service...
+2026-06-05 14:10:59.415 +05:30 [INF] ReviewService | Review Service started successfully on port 5006
+2026-06-05 14:11:00.530 +05:30 [INF] ReviewService | Now listening on: http://localhost:5006
+2026-06-05 14:11:00.910 +05:30 [INF] ReviewService | Application started. Press Ctrl+C to shut down.
+2026-06-05 14:11:00.924 +05:30 [INF] ReviewService | Hosting environment: Development
+2026-06-05 14:11:00.934 +05:30 [INF] ReviewService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\ReviewService
+2026-06-05 14:16:31.741 +05:30 [INF] ReviewService | Starting Review Service...
+2026-06-05 14:16:35.412 +05:30 [INF] ReviewService | Review Service started successfully on port 5006
+2026-06-05 14:16:36.262 +05:30 [INF] ReviewService | Now listening on: http://localhost:5006
+2026-06-05 14:16:36.492 +05:30 [INF] ReviewService | Application started. Press Ctrl+C to shut down.
+2026-06-05 14:16:36.496 +05:30 [INF] ReviewService | Hosting environment: Development
+2026-06-05 14:16:36.499 +05:30 [INF] ReviewService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\ReviewService
+2026-06-05 14:34:28.351 +05:30 [INF] ReviewService | Start processing HTTP request PUT http://localhost:5002/api/hotels/1/rating
+2026-06-05 14:34:28.358 +05:30 [INF] ReviewService | Sending HTTP request PUT http://localhost:5002/api/hotels/1/rating
+2026-06-05 14:34:28.923 +05:30 [INF] ReviewService | Received HTTP response headers after 559.9273ms - 200
+2026-06-05 14:34:28.931 +05:30 [INF] ReviewService | End processing HTTP request after 585.3436ms - 200

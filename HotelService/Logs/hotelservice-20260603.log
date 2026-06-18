@@ -1,0 +1,18 @@
+2026-06-03 08:33:27.145 +05:30 [INF] HotelService | Starting Hotel Service...
+2026-06-03 08:33:32.688 +05:30 [INF] HotelService | Hotel Service started successfully on port 5002
+2026-06-03 08:33:33.585 +05:30 [INF] HotelService | Now listening on: http://localhost:5002
+2026-06-03 08:33:33.876 +05:30 [INF] HotelService | Application started. Press Ctrl+C to shut down.
+2026-06-03 08:33:33.901 +05:30 [INF] HotelService | Hosting environment: Development
+2026-06-03 08:33:33.936 +05:30 [INF] HotelService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\HotelService
+2026-06-03 11:50:52.971 +05:30 [INF] HotelService | Starting Hotel Service...
+2026-06-03 11:50:56.574 +05:30 [INF] HotelService | Hotel Service started successfully on port 5002
+2026-06-03 11:50:58.626 +05:30 [INF] HotelService | Now listening on: http://localhost:5002
+2026-06-03 11:50:58.896 +05:30 [INF] HotelService | Application started. Press Ctrl+C to shut down.
+2026-06-03 11:50:59.145 +05:30 [INF] HotelService | Hosting environment: Development
+2026-06-03 11:50:59.167 +05:30 [INF] HotelService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\HotelService
+2026-06-03 17:42:29.150 +05:30 [INF] HotelService | Starting Hotel Service...
+2026-06-03 17:42:35.207 +05:30 [INF] HotelService | Hotel Service started successfully on port 5002
+2026-06-03 17:42:36.534 +05:30 [INF] HotelService | Now listening on: http://localhost:5002
+2026-06-03 17:42:36.819 +05:30 [INF] HotelService | Application started. Press Ctrl+C to shut down.
+2026-06-03 17:42:36.824 +05:30 [INF] HotelService | Hosting environment: Development
+2026-06-03 17:42:36.832 +05:30 [INF] HotelService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\HotelService

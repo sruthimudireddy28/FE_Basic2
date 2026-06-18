@@ -1,0 +1,21 @@
+﻿{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=localhost;Database=SmartHotel_PaymentDb;Trusted_Connection=True;TrustServerCertificate=True;"
+  },
+  "JwtSettings": {
+    "SecretKey": "YourSuperSecretKeyThatIsAtLeast32CharactersLong123!",
+    "Issuer": "SmartHotelBooking",
+    "Audience": "SmartHotelBookingUsers",
+    "ExpirationInMinutes": 60
+  },
+  "ServiceUrls": {
+    "BookingService": "http://localhost:5004"
+  }
+}

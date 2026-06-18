@@ -1,0 +1,18 @@
+2026-06-03 08:33:28.656 +05:30 [INF] BookingService | Starting Booking Service...
+2026-06-03 08:33:37.860 +05:30 [INF] BookingService | Booking Service started successfully on port 5004
+2026-06-03 08:33:39.001 +05:30 [INF] BookingService | Now listening on: http://localhost:5004
+2026-06-03 08:33:39.138 +05:30 [INF] BookingService | Application started. Press Ctrl+C to shut down.
+2026-06-03 08:33:39.149 +05:30 [INF] BookingService | Hosting environment: Development
+2026-06-03 08:33:39.153 +05:30 [INF] BookingService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\BookingService
+2026-06-03 11:50:52.774 +05:30 [INF] BookingService | Starting Booking Service...
+2026-06-03 11:50:56.287 +05:30 [INF] BookingService | Booking Service started successfully on port 5004
+2026-06-03 11:50:58.012 +05:30 [INF] BookingService | Now listening on: http://localhost:5004
+2026-06-03 11:50:58.172 +05:30 [INF] BookingService | Application started. Press Ctrl+C to shut down.
+2026-06-03 11:50:58.177 +05:30 [INF] BookingService | Hosting environment: Development
+2026-06-03 11:50:58.179 +05:30 [INF] BookingService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\BookingService
+2026-06-03 17:42:29.044 +05:30 [INF] BookingService | Starting Booking Service...
+2026-06-03 17:42:35.216 +05:30 [INF] BookingService | Booking Service started successfully on port 5004
+2026-06-03 17:42:36.859 +05:30 [INF] BookingService | Now listening on: http://localhost:5004
+2026-06-03 17:42:37.074 +05:30 [INF] BookingService | Application started. Press Ctrl+C to shut down.
+2026-06-03 17:42:37.077 +05:30 [INF] BookingService | Hosting environment: Development
+2026-06-03 17:42:37.080 +05:30 [INF] BookingService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\BookingService

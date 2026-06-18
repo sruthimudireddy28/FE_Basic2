@@ -1,0 +1,21 @@
+2026-06-11 15:39:30.369 +05:30 [INF] AuthService | Starting Auth Service...
+2026-06-11 15:39:34.742 +05:30 [INF] AuthService | JWT configured with Issuer: SmartHotelBooking
+2026-06-11 15:39:37.687 +05:30 [INF] AuthService | Auth Service started successfully on port 5001
+2026-06-11 15:39:38.537 +05:30 [INF] AuthService | Now listening on: http://localhost:5001
+2026-06-11 15:39:38.671 +05:30 [INF] AuthService | Application started. Press Ctrl+C to shut down.
+2026-06-11 15:39:38.680 +05:30 [INF] AuthService | Hosting environment: Development
+2026-06-11 15:39:38.693 +05:30 [INF] AuthService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\AuthService
+2026-06-11 16:17:11.954 +05:30 [INF] AuthService | Starting Auth Service...
+2026-06-11 16:17:14.200 +05:30 [INF] AuthService | JWT configured with Issuer: SmartHotelBooking
+2026-06-11 16:17:15.681 +05:30 [INF] AuthService | Auth Service started successfully on port 5001
+2026-06-11 16:17:16.496 +05:30 [INF] AuthService | Now listening on: http://localhost:5001
+2026-06-11 16:17:16.652 +05:30 [INF] AuthService | Application started. Press Ctrl+C to shut down.
+2026-06-11 16:17:16.669 +05:30 [INF] AuthService | Hosting environment: Development
+2026-06-11 16:17:16.687 +05:30 [INF] AuthService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\AuthService
+2026-06-11 16:39:45.476 +05:30 [INF] AuthService | Starting Auth Service...
+2026-06-11 16:39:48.043 +05:30 [INF] AuthService | JWT configured with Issuer: SmartHotelBooking
+2026-06-11 16:39:49.550 +05:30 [INF] AuthService | Auth Service started successfully on port 5001
+2026-06-11 16:39:50.389 +05:30 [INF] AuthService | Now listening on: http://localhost:5001
+2026-06-11 16:39:50.539 +05:30 [INF] AuthService | Application started. Press Ctrl+C to shut down.
+2026-06-11 16:39:50.546 +05:30 [INF] AuthService | Hosting environment: Development
+2026-06-11 16:39:50.554 +05:30 [INF] AuthService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\AuthService

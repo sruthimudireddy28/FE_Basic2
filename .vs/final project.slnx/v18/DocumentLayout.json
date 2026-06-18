@@ -1,0 +1,1760 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\.copilot\\plans\\plan-comprehensive-project-verification.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|MarkdownSecurePreview"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\AuthService\\DTOs\\UserDtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AuthService\\DTOs\\UserDtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\DTOs\\RoomDtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RoomService\\DTOs\\RoomDtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\Services\\HotelManagementService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HotelService\\Services\\HotelManagementService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\Controllers\\HotelsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HotelService\\Controllers\\HotelsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\Controllers\\AmenitiesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HotelService\\Controllers\\AmenitiesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\Services\\RoomManagementService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RoomService\\Services\\RoomManagementService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\Controllers\\RoomsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RoomService\\Controllers\\RoomsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\Models\\Room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RoomService\\Models\\Room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\docs\\ARCHITECTURE.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docs\\ARCHITECTURE.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\.copilot\\plans\\plan-add-serilog-and-create-professional-documentation.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|MarkdownSecurePreview"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\SharedLibrary\\DTOs\\ApiResponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SharedLibrary\\DTOs\\ApiResponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\.copilot\\plans\\plan-implement-duplicate-protection-and-remove-jwtsettings-from-sharedlibrary.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|MarkdownSecurePreview"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\.copilot\\plans\\plan-smart-hotel-booking-system-.net-8.0-microservice-architecture-(restructured).md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|MarkdownSecurePreview"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\.copilot\\plans\\plan-smart-hotel-booking-system-.net-8.0-microservice-architecture.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|MarkdownSecurePreview"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\SharedLibrary\\Settings\\JwtSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SharedLibrary\\Settings\\JwtSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\SharedLibrary\\DTOs\\AuthDtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SharedLibrary\\DTOs\\AuthDtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\SharedLibrary\\Constants\\AppConstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SharedLibrary\\Constants\\AppConstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ApiGateway\\ApiGateway.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ApiGateway\\ApiGateway.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ApiGateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ApiGateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ApiGateway\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ApiGateway\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ApiGateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ApiGateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ApiGateway\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ApiGateway\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\AuthService\\AuthService.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AuthService\\AuthService.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\AuthService\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AuthService\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\AuthService\\Data\\AuthDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AuthService\\Data\\AuthDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\AuthService\\Services\\IUserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AuthService\\Services\\IUserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\AuthService\\Services\\UserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AuthService\\Services\\UserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\AuthService\\Controllers\\AuthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AuthService\\Controllers\\AuthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\AuthService\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AuthService\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\AuthService\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AuthService\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\AuthService\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AuthService\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\HotelService.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HotelService\\HotelService.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\Models\\Hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HotelService\\Models\\Hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\Models\\Amenity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HotelService\\Models\\Amenity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\Models\\HotelAmenity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HotelService\\Models\\HotelAmenity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\Data\\HotelDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HotelService\\Data\\HotelDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\DTOs\\HotelDtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HotelService\\DTOs\\HotelDtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\Services\\IHotelService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HotelService\\Services\\IHotelService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\Services\\AmenityService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HotelService\\Services\\AmenityService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HotelService\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HotelService\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HotelService\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\RoomService.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RoomService\\RoomService.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\Models\\RoomAmenity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RoomService\\Models\\RoomAmenity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\Data\\RoomDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RoomService\\Data\\RoomDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\Services\\IRoomService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RoomService\\Services\\IRoomService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RoomService\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RoomService\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RoomService\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\BookingService\\BookingService.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookingService\\BookingService.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\BookingService\\Models\\Booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookingService\\Models\\Booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\BookingService\\Data\\BookingDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookingService\\Data\\BookingDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\BookingService\\DTOs\\BookingDtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookingService\\DTOs\\BookingDtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\BookingService\\Services\\IBookingService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookingService\\Services\\IBookingService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\BookingService\\Services\\BookingManagementService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookingService\\Services\\BookingManagementService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\BookingService\\Controllers\\BookingsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookingService\\Controllers\\BookingsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\BookingService\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookingService\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\BookingService\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookingService\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\BookingService\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookingService\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\PaymentService\\PaymentService.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PaymentService\\PaymentService.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\PaymentService\\Models\\Payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PaymentService\\Models\\Payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\PaymentService\\Data\\PaymentDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PaymentService\\Data\\PaymentDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\PaymentService\\DTOs\\PaymentDtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PaymentService\\DTOs\\PaymentDtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\PaymentService\\Services\\IPaymentService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PaymentService\\Services\\IPaymentService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\PaymentService\\Services\\PaymentProcessingService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PaymentService\\Services\\PaymentProcessingService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\PaymentService\\Controllers\\PaymentsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PaymentService\\Controllers\\PaymentsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\PaymentService\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PaymentService\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\PaymentService\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PaymentService\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\PaymentService\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PaymentService\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ReviewService\\ReviewService.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ReviewService\\ReviewService.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ReviewService\\Models\\Review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ReviewService\\Models\\Review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ReviewService\\Data\\ReviewDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ReviewService\\Data\\ReviewDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ReviewService\\DTOs\\ReviewDtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ReviewService\\DTOs\\ReviewDtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ReviewService\\Services\\IReviewService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ReviewService\\Services\\IReviewService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ReviewService\\Services\\ReviewManagementService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ReviewService\\Services\\ReviewManagementService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ReviewService\\Controllers\\ReviewsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ReviewService\\Controllers\\ReviewsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ReviewService\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ReviewService\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ReviewService\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ReviewService\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ReviewService\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ReviewService\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\LoyaltyService\\LoyaltyService.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LoyaltyService\\LoyaltyService.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\LoyaltyService\\Models\\LoyaltyAccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LoyaltyService\\Models\\LoyaltyAccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\LoyaltyService\\Models\\Redemption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LoyaltyService\\Models\\Redemption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\LoyaltyService\\Models\\PointTransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LoyaltyService\\Models\\PointTransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\LoyaltyService\\Data\\LoyaltyDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LoyaltyService\\Data\\LoyaltyDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\LoyaltyService\\DTOs\\LoyaltyDtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LoyaltyService\\DTOs\\LoyaltyDtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\LoyaltyService\\Services\\ILoyaltyService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LoyaltyService\\Services\\ILoyaltyService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\LoyaltyService\\Services\\LoyaltyManagementService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LoyaltyService\\Services\\LoyaltyManagementService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\LoyaltyService\\Controllers\\LoyaltyController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LoyaltyService\\Controllers\\LoyaltyController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\LoyaltyService\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LoyaltyService\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\LoyaltyService\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LoyaltyService\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\LoyaltyService\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LoyaltyService\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\AuthService\\Settings\\JwtSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AuthService\\Settings\\JwtSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ApiGateway\\Settings\\JwtSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ApiGateway\\Settings\\JwtSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\docs\\JWT_AUTHENTICATION.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docs\\JWT_AUTHENTICATION.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\Models\\Amenity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RoomService\\Models\\Amenity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\DTOs\\AmenityDtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RoomService\\DTOs\\AmenityDtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\Services\\IAmenityService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RoomService\\Services\\IAmenityService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\Services\\AmenityService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RoomService\\Services\\AmenityService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\Controllers\\AmenitiesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RoomService\\Controllers\\AmenitiesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\SmartHotelBooking.slnx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SmartHotelBooking.slnx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2492212\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\642334825\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\2492212\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\642334825\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\642334825\\appsettings.json",
+              "ToolTip": "C:\\Users\\2492212\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\642334825\\appsettings.json",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\642334825\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-30T11:30:35.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "plan-comprehensive-project-verification.md [Preview]",
+              "DocumentMoniker": "C:\\Users\\2492212\\.copilot\\plans\\plan-comprehensive-project-verification.md",
+              "RelativeDocumentMoniker": "..\\..\\..\\.copilot\\plans\\plan-comprehensive-project-verification.md",
+              "ToolTip": "C:\\Users\\2492212\\.copilot\\plans\\plan-comprehensive-project-verification.md [Preview]",
+              "RelativeToolTip": "..\\..\\..\\.copilot\\plans\\plan-comprehensive-project-verification.md [Preview]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-30T11:03:13.379Z",
+              "EditorCaption": " [Preview]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "SmartHotelBooking.slnx",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\SmartHotelBooking.slnx",
+              "RelativeDocumentMoniker": "SmartHotelBooking.slnx",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\SmartHotelBooking.slnx",
+              "RelativeToolTip": "SmartHotelBooking.slnx",
+              "ViewState": "AgIAAAgAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002855|",
+              "WhenOpened": "2026-05-30T10:44:57.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HotelsController.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\Controllers\\HotelsController.cs",
+              "RelativeDocumentMoniker": "HotelService\\Controllers\\HotelsController.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\Controllers\\HotelsController.cs",
+              "RelativeToolTip": "HotelService\\Controllers\\HotelsController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:47:55.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HotelManagementService.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\Services\\HotelManagementService.cs",
+              "RelativeDocumentMoniker": "HotelService\\Services\\HotelManagementService.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\Services\\HotelManagementService.cs",
+              "RelativeToolTip": "HotelService\\Services\\HotelManagementService.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAABYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:47:25.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RoomDtos.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\DTOs\\RoomDtos.cs",
+              "RelativeDocumentMoniker": "RoomService\\DTOs\\RoomDtos.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\DTOs\\RoomDtos.cs",
+              "RelativeToolTip": "RoomService\\DTOs\\RoomDtos.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:50:00.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserDtos.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\AuthService\\DTOs\\UserDtos.cs",
+              "RelativeDocumentMoniker": "AuthService\\DTOs\\UserDtos.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\AuthService\\DTOs\\UserDtos.cs",
+              "RelativeToolTip": "AuthService\\DTOs\\UserDtos.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAjwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:44:13.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AmenitiesController.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\Controllers\\AmenitiesController.cs",
+              "RelativeDocumentMoniker": "HotelService\\Controllers\\AmenitiesController.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\Controllers\\AmenitiesController.cs",
+              "RelativeToolTip": "HotelService\\Controllers\\AmenitiesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:48:05.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RoomManagementService.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\Services\\RoomManagementService.cs",
+              "RelativeDocumentMoniker": "RoomService\\Services\\RoomManagementService.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\Services\\RoomManagementService.cs",
+              "RelativeToolTip": "RoomService\\Services\\RoomManagementService.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAADwvzIBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:50:42.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RoomsController.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\Controllers\\RoomsController.cs",
+              "RelativeDocumentMoniker": "RoomService\\Controllers\\RoomsController.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\Controllers\\RoomsController.cs",
+              "RelativeToolTip": "RoomService\\Controllers\\RoomsController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:52:37.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\Models\\Room.cs",
+              "RelativeDocumentMoniker": "RoomService\\Models\\Room.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\Models\\Room.cs",
+              "RelativeToolTip": "RoomService\\Models\\Room.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:49:30.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "AmenityService.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\Services\\AmenityService.cs",
+              "RelativeDocumentMoniker": "RoomService\\Services\\AmenityService.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\Services\\AmenityService.cs",
+              "RelativeToolTip": "RoomService\\Services\\AmenityService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T10:16:31.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "AmenitiesController.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\Controllers\\AmenitiesController.cs",
+              "RelativeDocumentMoniker": "RoomService\\Controllers\\AmenitiesController.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\Controllers\\AmenitiesController.cs",
+              "RelativeToolTip": "RoomService\\Controllers\\AmenitiesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T10:16:45.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ARCHITECTURE.md",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\docs\\ARCHITECTURE.md",
+              "RelativeDocumentMoniker": "docs\\ARCHITECTURE.md",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\docs\\ARCHITECTURE.md",
+              "RelativeToolTip": "docs\\ARCHITECTURE.md",
+              "ViewState": "AgIAALoAAAAAAAAAAAAAAKIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-30T10:03:12.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "Amenity.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\Models\\Amenity.cs",
+              "RelativeDocumentMoniker": "RoomService\\Models\\Amenity.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\Models\\Amenity.cs",
+              "RelativeToolTip": "RoomService\\Models\\Amenity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T10:15:25.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "AmenityDtos.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\DTOs\\AmenityDtos.cs",
+              "RelativeDocumentMoniker": "RoomService\\DTOs\\AmenityDtos.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\DTOs\\AmenityDtos.cs",
+              "RelativeToolTip": "RoomService\\DTOs\\AmenityDtos.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAIBJwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T10:16:03.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "IAmenityService.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\Services\\IAmenityService.cs",
+              "RelativeDocumentMoniker": "RoomService\\Services\\IAmenityService.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\Services\\IAmenityService.cs",
+              "RelativeToolTip": "RoomService\\Services\\IAmenityService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T10:16:12.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAJUBAAAAAAAAAAAAAKQBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-30T09:59:26.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "plan-add-serilog-and-create-professional-documentation.md [Preview]",
+              "DocumentMoniker": "C:\\Users\\2492212\\.copilot\\plans\\plan-add-serilog-and-create-professional-documentation.md",
+              "RelativeDocumentMoniker": "..\\..\\..\\.copilot\\plans\\plan-add-serilog-and-create-professional-documentation.md",
+              "ToolTip": "C:\\Users\\2492212\\.copilot\\plans\\plan-add-serilog-and-create-professional-documentation.md [Preview]",
+              "RelativeToolTip": "..\\..\\..\\.copilot\\plans\\plan-add-serilog-and-create-professional-documentation.md [Preview]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-30T09:44:43.068Z",
+              "EditorCaption": " [Preview]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "JWT_AUTHENTICATION.md",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\docs\\JWT_AUTHENTICATION.md",
+              "RelativeDocumentMoniker": "docs\\JWT_AUTHENTICATION.md",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\docs\\JWT_AUTHENTICATION.md",
+              "RelativeToolTip": "docs\\JWT_AUTHENTICATION.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHoCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-30T10:00:42.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ApiGateway\\Settings\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "ApiGateway\\Settings\\JwtSettings.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ApiGateway\\Settings\\JwtSettings.cs",
+              "RelativeToolTip": "ApiGateway\\Settings\\JwtSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T09:35:43.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\AuthService\\Settings\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "AuthService\\Settings\\JwtSettings.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\AuthService\\Settings\\JwtSettings.cs",
+              "RelativeToolTip": "AuthService\\Settings\\JwtSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T09:35:43.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "plan-implement-duplicate-protection-and-remove-jwtsettings-from-sharedlibrary.md [Preview]",
+              "DocumentMoniker": "C:\\Users\\2492212\\.copilot\\plans\\plan-implement-duplicate-protection-and-remove-jwtsettings-from-sharedlibrary.md",
+              "RelativeDocumentMoniker": "..\\..\\..\\.copilot\\plans\\plan-implement-duplicate-protection-and-remove-jwtsettings-from-sharedlibrary.md",
+              "ToolTip": "C:\\Users\\2492212\\.copilot\\plans\\plan-implement-duplicate-protection-and-remove-jwtsettings-from-sharedlibrary.md [Preview]",
+              "RelativeToolTip": "..\\..\\..\\.copilot\\plans\\plan-implement-duplicate-protection-and-remove-jwtsettings-from-sharedlibrary.md [Preview]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-30T09:35:14.66Z",
+              "EditorCaption": " [Preview]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuthDtos.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\SharedLibrary\\DTOs\\AuthDtos.cs",
+              "RelativeDocumentMoniker": "SharedLibrary\\DTOs\\AuthDtos.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\SharedLibrary\\DTOs\\AuthDtos.cs",
+              "RelativeToolTip": "SharedLibrary\\DTOs\\AuthDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:39:18.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\SharedLibrary\\DTOs\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "SharedLibrary\\DTOs\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\SharedLibrary\\DTOs\\ApiResponse.cs",
+              "RelativeToolTip": "SharedLibrary\\DTOs\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:39:11.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AppConstants.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\SharedLibrary\\Constants\\AppConstants.cs",
+              "RelativeDocumentMoniker": "SharedLibrary\\Constants\\AppConstants.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\SharedLibrary\\Constants\\AppConstants.cs",
+              "RelativeToolTip": "SharedLibrary\\Constants\\AppConstants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:39:26.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\SharedLibrary\\Settings\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "SharedLibrary\\Settings\\JwtSettings.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\SharedLibrary\\Settings\\JwtSettings.cs",
+              "RelativeToolTip": "SharedLibrary\\Settings\\JwtSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:38:57.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "plan-smart-hotel-booking-system-.net-8.0-microservice-architecture-(restructured).md [Preview]",
+              "DocumentMoniker": "C:\\Users\\2492212\\.copilot\\plans\\plan-smart-hotel-booking-system-.net-8.0-microservice-architecture-(restructured).md",
+              "RelativeDocumentMoniker": "..\\..\\..\\.copilot\\plans\\plan-smart-hotel-booking-system-.net-8.0-microservice-architecture-(restructured).md",
+              "ToolTip": "C:\\Users\\2492212\\.copilot\\plans\\plan-smart-hotel-booking-system-.net-8.0-microservice-architecture-(restructured).md [Preview]",
+              "RelativeToolTip": "..\\..\\..\\.copilot\\plans\\plan-smart-hotel-booking-system-.net-8.0-microservice-architecture-(restructured).md [Preview]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-30T08:33:44.807Z",
+              "EditorCaption": " [Preview]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\LoyaltyService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "LoyaltyService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\LoyaltyService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "LoyaltyService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-30T09:07:07.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\LoyaltyService\\appsettings.json",
+              "RelativeDocumentMoniker": "LoyaltyService\\appsettings.json",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\LoyaltyService\\appsettings.json",
+              "RelativeToolTip": "LoyaltyService\\appsettings.json",
+              "ViewState": "AgIAAAUAAAAAAAAAAGBnwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-30T09:06:50.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\LoyaltyService\\Program.cs",
+              "RelativeDocumentMoniker": "LoyaltyService\\Program.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\LoyaltyService\\Program.cs",
+              "RelativeToolTip": "LoyaltyService\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAIBJwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T09:06:40.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "LoyaltyController.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\LoyaltyService\\Controllers\\LoyaltyController.cs",
+              "RelativeDocumentMoniker": "LoyaltyService\\Controllers\\LoyaltyController.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\LoyaltyService\\Controllers\\LoyaltyController.cs",
+              "RelativeToolTip": "LoyaltyService\\Controllers\\LoyaltyController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T09:06:17.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "LoyaltyManagementService.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\LoyaltyService\\Services\\LoyaltyManagementService.cs",
+              "RelativeDocumentMoniker": "LoyaltyService\\Services\\LoyaltyManagementService.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\LoyaltyService\\Services\\LoyaltyManagementService.cs",
+              "RelativeToolTip": "LoyaltyService\\Services\\LoyaltyManagementService.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAIBJwDcBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T09:06:01.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "ILoyaltyService.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\LoyaltyService\\Services\\ILoyaltyService.cs",
+              "RelativeDocumentMoniker": "LoyaltyService\\Services\\ILoyaltyService.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\LoyaltyService\\Services\\ILoyaltyService.cs",
+              "RelativeToolTip": "LoyaltyService\\Services\\ILoyaltyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T09:05:27.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "LoyaltyDtos.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\LoyaltyService\\DTOs\\LoyaltyDtos.cs",
+              "RelativeDocumentMoniker": "LoyaltyService\\DTOs\\LoyaltyDtos.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\LoyaltyService\\DTOs\\LoyaltyDtos.cs",
+              "RelativeToolTip": "LoyaltyService\\DTOs\\LoyaltyDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T09:05:14.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "LoyaltyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\LoyaltyService\\Data\\LoyaltyDbContext.cs",
+              "RelativeDocumentMoniker": "LoyaltyService\\Data\\LoyaltyDbContext.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\LoyaltyService\\Data\\LoyaltyDbContext.cs",
+              "RelativeToolTip": "LoyaltyService\\Data\\LoyaltyDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T09:05:02.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "PointTransaction.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\LoyaltyService\\Models\\PointTransaction.cs",
+              "RelativeDocumentMoniker": "LoyaltyService\\Models\\PointTransaction.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\LoyaltyService\\Models\\PointTransaction.cs",
+              "RelativeToolTip": "LoyaltyService\\Models\\PointTransaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T09:04:51.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "Redemption.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\LoyaltyService\\Models\\Redemption.cs",
+              "RelativeDocumentMoniker": "LoyaltyService\\Models\\Redemption.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\LoyaltyService\\Models\\Redemption.cs",
+              "RelativeToolTip": "LoyaltyService\\Models\\Redemption.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T09:04:42.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "LoyaltyAccount.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\LoyaltyService\\Models\\LoyaltyAccount.cs",
+              "RelativeDocumentMoniker": "LoyaltyService\\Models\\LoyaltyAccount.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\LoyaltyService\\Models\\LoyaltyAccount.cs",
+              "RelativeToolTip": "LoyaltyService\\Models\\LoyaltyAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T09:04:32.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "LoyaltyService.csproj",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\LoyaltyService\\LoyaltyService.csproj",
+              "RelativeDocumentMoniker": "LoyaltyService\\LoyaltyService.csproj",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\LoyaltyService\\LoyaltyService.csproj",
+              "RelativeToolTip": "LoyaltyService\\LoyaltyService.csproj",
+              "ViewState": "AgIAABQAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-30T09:04:21.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ReviewService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ReviewService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ReviewService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ReviewService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAEAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-30T09:03:45.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ReviewService\\appsettings.json",
+              "RelativeDocumentMoniker": "ReviewService\\appsettings.json",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ReviewService\\appsettings.json",
+              "RelativeToolTip": "ReviewService\\appsettings.json",
+              "ViewState": "AgIAAAcAAAAAAAAAAIBpwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-30T09:03:28.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ReviewService\\Program.cs",
+              "RelativeDocumentMoniker": "ReviewService\\Program.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ReviewService\\Program.cs",
+              "RelativeToolTip": "ReviewService\\Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAABRwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T09:03:17.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "ReviewsController.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ReviewService\\Controllers\\ReviewsController.cs",
+              "RelativeDocumentMoniker": "ReviewService\\Controllers\\ReviewsController.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ReviewService\\Controllers\\ReviewsController.cs",
+              "RelativeToolTip": "ReviewService\\Controllers\\ReviewsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T09:02:51.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "ReviewManagementService.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ReviewService\\Services\\ReviewManagementService.cs",
+              "RelativeDocumentMoniker": "ReviewService\\Services\\ReviewManagementService.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ReviewService\\Services\\ReviewManagementService.cs",
+              "RelativeToolTip": "ReviewService\\Services\\ReviewManagementService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T09:02:33.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "IReviewService.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ReviewService\\Services\\IReviewService.cs",
+              "RelativeDocumentMoniker": "ReviewService\\Services\\IReviewService.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ReviewService\\Services\\IReviewService.cs",
+              "RelativeToolTip": "ReviewService\\Services\\IReviewService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T09:02:00.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "ReviewDtos.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ReviewService\\DTOs\\ReviewDtos.cs",
+              "RelativeDocumentMoniker": "ReviewService\\DTOs\\ReviewDtos.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ReviewService\\DTOs\\ReviewDtos.cs",
+              "RelativeToolTip": "ReviewService\\DTOs\\ReviewDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T09:01:47.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "ReviewDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ReviewService\\Data\\ReviewDbContext.cs",
+              "RelativeDocumentMoniker": "ReviewService\\Data\\ReviewDbContext.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ReviewService\\Data\\ReviewDbContext.cs",
+              "RelativeToolTip": "ReviewService\\Data\\ReviewDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T09:01:34.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ReviewService\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "ReviewService\\Models\\Review.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ReviewService\\Models\\Review.cs",
+              "RelativeToolTip": "ReviewService\\Models\\Review.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T09:00:12.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "ReviewService.csproj",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ReviewService\\ReviewService.csproj",
+              "RelativeDocumentMoniker": "ReviewService\\ReviewService.csproj",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ReviewService\\ReviewService.csproj",
+              "RelativeToolTip": "ReviewService\\ReviewService.csproj",
+              "ViewState": "AgIAABQAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-30T08:59:46.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\PaymentService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "PaymentService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\PaymentService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "PaymentService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-30T08:59:11.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\PaymentService\\appsettings.json",
+              "RelativeDocumentMoniker": "PaymentService\\appsettings.json",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\PaymentService\\appsettings.json",
+              "RelativeToolTip": "PaymentService\\appsettings.json",
+              "ViewState": "AgIAAAgAAAAAAAAAAGBnwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-30T08:58:55.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\PaymentService\\Program.cs",
+              "RelativeDocumentMoniker": "PaymentService\\Program.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\PaymentService\\Program.cs",
+              "RelativeToolTip": "PaymentService\\Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAABRwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:58:45.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "PaymentsController.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\PaymentService\\Controllers\\PaymentsController.cs",
+              "RelativeDocumentMoniker": "PaymentService\\Controllers\\PaymentsController.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\PaymentService\\Controllers\\PaymentsController.cs",
+              "RelativeToolTip": "PaymentService\\Controllers\\PaymentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:58:23.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "PaymentProcessingService.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\PaymentService\\Services\\PaymentProcessingService.cs",
+              "RelativeDocumentMoniker": "PaymentService\\Services\\PaymentProcessingService.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\PaymentService\\Services\\PaymentProcessingService.cs",
+              "RelativeToolTip": "PaymentService\\Services\\PaymentProcessingService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAIBJwB8BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:58:07.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "IPaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\PaymentService\\Services\\IPaymentService.cs",
+              "RelativeDocumentMoniker": "PaymentService\\Services\\IPaymentService.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\PaymentService\\Services\\IPaymentService.cs",
+              "RelativeToolTip": "PaymentService\\Services\\IPaymentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:57:39.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "PaymentDtos.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\PaymentService\\DTOs\\PaymentDtos.cs",
+              "RelativeDocumentMoniker": "PaymentService\\DTOs\\PaymentDtos.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\PaymentService\\DTOs\\PaymentDtos.cs",
+              "RelativeToolTip": "PaymentService\\DTOs\\PaymentDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:57:27.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "PaymentDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\PaymentService\\Data\\PaymentDbContext.cs",
+              "RelativeDocumentMoniker": "PaymentService\\Data\\PaymentDbContext.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\PaymentService\\Data\\PaymentDbContext.cs",
+              "RelativeToolTip": "PaymentService\\Data\\PaymentDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:57:16.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\PaymentService\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "PaymentService\\Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\PaymentService\\Models\\Payment.cs",
+              "RelativeToolTip": "PaymentService\\Models\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:57:07.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "PaymentService.csproj",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\PaymentService\\PaymentService.csproj",
+              "RelativeDocumentMoniker": "PaymentService\\PaymentService.csproj",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\PaymentService\\PaymentService.csproj",
+              "RelativeToolTip": "PaymentService\\PaymentService.csproj",
+              "ViewState": "AgIAABQAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-30T08:56:57.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\BookingService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "BookingService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\BookingService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "BookingService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-30T08:56:23.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\BookingService\\appsettings.json",
+              "RelativeDocumentMoniker": "BookingService\\appsettings.json",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\BookingService\\appsettings.json",
+              "RelativeToolTip": "BookingService\\appsettings.json",
+              "ViewState": "AgIAAAgAAAAAAAAAAIBpwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-30T08:56:08.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\BookingService\\Program.cs",
+              "RelativeDocumentMoniker": "BookingService\\Program.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\BookingService\\Program.cs",
+              "RelativeToolTip": "BookingService\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAIBJwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:55:58.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "BookingsController.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\BookingService\\Controllers\\BookingsController.cs",
+              "RelativeDocumentMoniker": "BookingService\\Controllers\\BookingsController.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\BookingService\\Controllers\\BookingsController.cs",
+              "RelativeToolTip": "BookingService\\Controllers\\BookingsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:55:35.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "BookingManagementService.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\BookingService\\Services\\BookingManagementService.cs",
+              "RelativeDocumentMoniker": "BookingService\\Services\\BookingManagementService.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\BookingService\\Services\\BookingManagementService.cs",
+              "RelativeToolTip": "BookingService\\Services\\BookingManagementService.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAIBJwJIBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:55:18.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "IBookingService.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\BookingService\\Services\\IBookingService.cs",
+              "RelativeDocumentMoniker": "BookingService\\Services\\IBookingService.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\BookingService\\Services\\IBookingService.cs",
+              "RelativeToolTip": "BookingService\\Services\\IBookingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:54:39.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "BookingDtos.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\BookingService\\DTOs\\BookingDtos.cs",
+              "RelativeDocumentMoniker": "BookingService\\DTOs\\BookingDtos.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\BookingService\\DTOs\\BookingDtos.cs",
+              "RelativeToolTip": "BookingService\\DTOs\\BookingDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:54:26.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "BookingDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\BookingService\\Data\\BookingDbContext.cs",
+              "RelativeDocumentMoniker": "BookingService\\Data\\BookingDbContext.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\BookingService\\Data\\BookingDbContext.cs",
+              "RelativeToolTip": "BookingService\\Data\\BookingDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:54:14.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\BookingService\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "BookingService\\Models\\Booking.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\BookingService\\Models\\Booking.cs",
+              "RelativeToolTip": "BookingService\\Models\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:54:06.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "BookingService.csproj",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\BookingService\\BookingService.csproj",
+              "RelativeDocumentMoniker": "BookingService\\BookingService.csproj",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\BookingService\\BookingService.csproj",
+              "RelativeToolTip": "BookingService\\BookingService.csproj",
+              "ViewState": "AgIAABQAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-30T08:53:55.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "RoomService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "RoomService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-30T08:53:23.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\appsettings.json",
+              "RelativeDocumentMoniker": "RoomService\\appsettings.json",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\appsettings.json",
+              "RelativeToolTip": "RoomService\\appsettings.json",
+              "ViewState": "AgIAAAcAAAAAAAAAAIBpwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-30T08:53:08.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\Program.cs",
+              "RelativeDocumentMoniker": "RoomService\\Program.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\Program.cs",
+              "RelativeToolTip": "RoomService\\Program.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAABBwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:52:59.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "IRoomService.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\Services\\IRoomService.cs",
+              "RelativeDocumentMoniker": "RoomService\\Services\\IRoomService.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\Services\\IRoomService.cs",
+              "RelativeToolTip": "RoomService\\Services\\IRoomService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:50:13.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "RoomDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\Data\\RoomDbContext.cs",
+              "RelativeDocumentMoniker": "RoomService\\Data\\RoomDbContext.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\Data\\RoomDbContext.cs",
+              "RelativeToolTip": "RoomService\\Data\\RoomDbContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAIBJwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:49:46.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "RoomAmenity.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\Models\\RoomAmenity.cs",
+              "RelativeDocumentMoniker": "RoomService\\Models\\RoomAmenity.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\Models\\RoomAmenity.cs",
+              "RelativeToolTip": "RoomService\\Models\\RoomAmenity.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAABBwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:49:38.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "RoomService.csproj",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\RoomService.csproj",
+              "RelativeDocumentMoniker": "RoomService\\RoomService.csproj",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\RoomService\\RoomService.csproj",
+              "RelativeToolTip": "RoomService\\RoomService.csproj",
+              "ViewState": "AgIAABQAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-30T08:49:20.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "HotelService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "HotelService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAEAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-30T08:48:48.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\appsettings.json",
+              "RelativeDocumentMoniker": "HotelService\\appsettings.json",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\appsettings.json",
+              "RelativeToolTip": "HotelService\\appsettings.json",
+              "ViewState": "AgIAAAQAAAAAAAAAAIBpwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-30T08:48:34.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\Program.cs",
+              "RelativeDocumentMoniker": "HotelService\\Program.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\Program.cs",
+              "RelativeToolTip": "HotelService\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAIBJwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:48:25.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AmenityService.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\Services\\AmenityService.cs",
+              "RelativeDocumentMoniker": "HotelService\\Services\\AmenityService.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\Services\\AmenityService.cs",
+              "RelativeToolTip": "HotelService\\Services\\AmenityService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:47:39.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IHotelService.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\Services\\IHotelService.cs",
+              "RelativeDocumentMoniker": "HotelService\\Services\\IHotelService.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\Services\\IHotelService.cs",
+              "RelativeToolTip": "HotelService\\Services\\IHotelService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:46:58.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "HotelDtos.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\DTOs\\HotelDtos.cs",
+              "RelativeDocumentMoniker": "HotelService\\DTOs\\HotelDtos.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\DTOs\\HotelDtos.cs",
+              "RelativeToolTip": "HotelService\\DTOs\\HotelDtos.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAABBwFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:46:45.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "HotelDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\Data\\HotelDbContext.cs",
+              "RelativeDocumentMoniker": "HotelService\\Data\\HotelDbContext.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\Data\\HotelDbContext.cs",
+              "RelativeToolTip": "HotelService\\Data\\HotelDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:46:33.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "HotelAmenity.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\Models\\HotelAmenity.cs",
+              "RelativeDocumentMoniker": "HotelService\\Models\\HotelAmenity.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\Models\\HotelAmenity.cs",
+              "RelativeToolTip": "HotelService\\Models\\HotelAmenity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:46:18.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Amenity.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\Models\\Amenity.cs",
+              "RelativeDocumentMoniker": "HotelService\\Models\\Amenity.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\Models\\Amenity.cs",
+              "RelativeToolTip": "HotelService\\Models\\Amenity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:46:12.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Hotel.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\Models\\Hotel.cs",
+              "RelativeDocumentMoniker": "HotelService\\Models\\Hotel.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\Models\\Hotel.cs",
+              "RelativeToolTip": "HotelService\\Models\\Hotel.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAABBwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:46:05.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "HotelService.csproj",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\HotelService.csproj",
+              "RelativeDocumentMoniker": "HotelService\\HotelService.csproj",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\HotelService\\HotelService.csproj",
+              "RelativeToolTip": "HotelService\\HotelService.csproj",
+              "ViewState": "AgIAABQAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-30T08:45:55.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\AuthService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "AuthService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\AuthService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "AuthService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-30T08:45:24.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\AuthService\\appsettings.json",
+              "RelativeDocumentMoniker": "AuthService\\appsettings.json",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\AuthService\\appsettings.json",
+              "RelativeToolTip": "AuthService\\appsettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAABhwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-30T08:45:10.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\AuthService\\Program.cs",
+              "RelativeDocumentMoniker": "AuthService\\Program.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\AuthService\\Program.cs",
+              "RelativeToolTip": "AuthService\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:44:57.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\AuthService\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AuthService\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\AuthService\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AuthService\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAIBJwFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:44:23.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\AuthService\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "AuthService\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\AuthService\\Services\\UserService.cs",
+              "RelativeToolTip": "AuthService\\Services\\UserService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAABBwMQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:44:06.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\AuthService\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "AuthService\\Services\\IUserService.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\AuthService\\Services\\IUserService.cs",
+              "RelativeToolTip": "AuthService\\Services\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:41:58.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AuthDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\AuthService\\Data\\AuthDbContext.cs",
+              "RelativeDocumentMoniker": "AuthService\\Data\\AuthDbContext.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\AuthService\\Data\\AuthDbContext.cs",
+              "RelativeToolTip": "AuthService\\Data\\AuthDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:41:51.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\AuthService\\Models\\User.cs",
+              "RelativeDocumentMoniker": "AuthService\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\AuthService\\Models\\User.cs",
+              "RelativeToolTip": "AuthService\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:41:43.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AuthService.csproj",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\AuthService\\AuthService.csproj",
+              "RelativeDocumentMoniker": "AuthService\\AuthService.csproj",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\AuthService\\AuthService.csproj",
+              "RelativeToolTip": "AuthService\\AuthService.csproj",
+              "ViewState": "AgIAABUAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-30T08:41:35.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ApiGateway\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ApiGateway\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ApiGateway\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ApiGateway\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-30T08:40:44.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ApiGateway\\appsettings.json",
+              "RelativeDocumentMoniker": "ApiGateway\\appsettings.json",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ApiGateway\\appsettings.json",
+              "RelativeToolTip": "ApiGateway\\appsettings.json",
+              "ViewState": "AgIAAAIAAAAAAAAAAGBnwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-30T08:40:28.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ApiGateway\\Program.cs",
+              "RelativeDocumentMoniker": "ApiGateway\\Program.cs",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ApiGateway\\Program.cs",
+              "RelativeToolTip": "ApiGateway\\Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAIBJwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:40:17.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ocelot.json",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ApiGateway\\ocelot.json",
+              "RelativeDocumentMoniker": "ApiGateway\\ocelot.json",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ApiGateway\\ocelot.json",
+              "RelativeToolTip": "ApiGateway\\ocelot.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-30T08:39:58.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ApiGateway.csproj",
+              "DocumentMoniker": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ApiGateway\\ApiGateway.csproj",
+              "RelativeDocumentMoniker": "ApiGateway\\ApiGateway.csproj",
+              "ToolTip": "C:\\Users\\2492212\\OneDrive - Cognizant\\Desktop\\final project\\ApiGateway\\ApiGateway.csproj",
+              "RelativeToolTip": "ApiGateway\\ApiGateway.csproj",
+              "ViewState": "AgIAAA8AAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-30T08:39:43.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "plan-smart-hotel-booking-system-.net-8.0-microservice-architecture.md [Preview]",
+              "DocumentMoniker": "C:\\Users\\2492212\\.copilot\\plans\\plan-smart-hotel-booking-system-.net-8.0-microservice-architecture.md",
+              "RelativeDocumentMoniker": "..\\..\\..\\.copilot\\plans\\plan-smart-hotel-booking-system-.net-8.0-microservice-architecture.md",
+              "ToolTip": "C:\\Users\\2492212\\.copilot\\plans\\plan-smart-hotel-booking-system-.net-8.0-microservice-architecture.md [Preview]",
+              "RelativeToolTip": "..\\..\\..\\.copilot\\plans\\plan-smart-hotel-booking-system-.net-8.0-microservice-architecture.md [Preview]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-30T08:28:10.369Z",
+              "EditorCaption": " [Preview]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

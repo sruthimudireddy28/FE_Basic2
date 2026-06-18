@@ -1,0 +1,12 @@
+2026-06-04 17:59:39.054 +05:30 [INF] ReviewService | Starting Review Service...
+2026-06-04 17:59:44.221 +05:30 [INF] ReviewService | Review Service started successfully on port 5006
+2026-06-04 17:59:45.097 +05:30 [INF] ReviewService | Now listening on: http://localhost:5006
+2026-06-04 17:59:45.251 +05:30 [INF] ReviewService | Application started. Press Ctrl+C to shut down.
+2026-06-04 17:59:45.281 +05:30 [INF] ReviewService | Hosting environment: Development
+2026-06-04 17:59:45.285 +05:30 [INF] ReviewService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\ReviewService
+2026-06-04 21:09:32.347 +05:30 [INF] ReviewService | Starting Review Service...
+2026-06-04 21:09:37.294 +05:30 [INF] ReviewService | Review Service started successfully on port 5006
+2026-06-04 21:09:38.052 +05:30 [INF] ReviewService | Now listening on: http://localhost:5006
+2026-06-04 21:09:38.270 +05:30 [INF] ReviewService | Application started. Press Ctrl+C to shut down.
+2026-06-04 21:09:38.317 +05:30 [INF] ReviewService | Hosting environment: Development
+2026-06-04 21:09:38.345 +05:30 [INF] ReviewService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\ReviewService

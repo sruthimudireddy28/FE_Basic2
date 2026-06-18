@@ -1,0 +1,22 @@
+2026-06-09 08:35:31.965 +05:30 [INF] ReviewService | Starting Review Service...
+2026-06-09 08:36:58.033 +05:30 [INF] ReviewService | Review Service started successfully on port 5006
+2026-06-09 08:36:58.896 +05:30 [INF] ReviewService | Now listening on: http://localhost:5006
+2026-06-09 08:36:59.019 +05:30 [INF] ReviewService | Application started. Press Ctrl+C to shut down.
+2026-06-09 08:36:59.072 +05:30 [INF] ReviewService | Hosting environment: Development
+2026-06-09 08:36:59.074 +05:30 [INF] ReviewService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\ReviewService
+2026-06-09 08:41:22.279 +05:30 [INF] ReviewService | Starting Review Service...
+2026-06-09 08:44:38.517 +05:30 [INF] ReviewService | Review Service started successfully on port 5006
+2026-06-09 08:44:39.032 +05:30 [INF] ReviewService | Now listening on: http://localhost:5006
+2026-06-09 08:44:39.135 +05:30 [INF] ReviewService | Application started. Press Ctrl+C to shut down.
+2026-06-09 08:44:39.148 +05:30 [INF] ReviewService | Hosting environment: Development
+2026-06-09 08:44:39.150 +05:30 [INF] ReviewService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\ReviewService
+2026-06-09 08:51:44.081 +05:30 [INF] ReviewService | Starting Review Service...
+2026-06-09 08:51:47.857 +05:30 [INF] ReviewService | Review Service started successfully on port 5006
+2026-06-09 08:51:48.682 +05:30 [INF] ReviewService | Now listening on: http://localhost:5006
+2026-06-09 08:51:48.794 +05:30 [INF] ReviewService | Application started. Press Ctrl+C to shut down.
+2026-06-09 08:51:48.799 +05:30 [INF] ReviewService | Hosting environment: Development
+2026-06-09 08:51:48.802 +05:30 [INF] ReviewService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\ReviewService
+2026-06-09 09:19:43.437 +05:30 [INF] ReviewService | Start processing HTTP request PUT http://localhost:5002/api/hotels/2/rating
+2026-06-09 09:19:43.448 +05:30 [INF] ReviewService | Sending HTTP request PUT http://localhost:5002/api/hotels/2/rating
+2026-06-09 09:19:44.102 +05:30 [INF] ReviewService | Received HTTP response headers after 648.876ms - 200
+2026-06-09 09:19:44.116 +05:30 [INF] ReviewService | End processing HTTP request after 686.63ms - 200

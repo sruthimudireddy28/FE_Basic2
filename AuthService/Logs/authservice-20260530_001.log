@@ -1,0 +1,66 @@
+2026-05-30 16:49:47.452 +05:30 [INF] AuthService | Starting Auth Service...
+2026-05-30 16:49:47.671 +05:30 [INF] AuthService | JWT configured with Issuer: SmartHotelBooking
+2026-05-30 16:49:47.736 +05:30 [FTL] AuthService | Auth Service failed to start
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\2492212\OneDrive - Cognizant\Desktop\final project\AuthService\Program.cs:line 99
+2026-05-30 16:52:51.694 +05:30 [INF] AuthService | Starting Auth Service...
+2026-05-30 16:52:51.821 +05:30 [FTL] AuthService | Auth Service failed to start
+System.IO.InvalidDataException: Failed to load configuration from file 'C:\Users\2492212\OneDrive - Cognizant\Desktop\final project\AuthService\appsettings.json'.
+ ---> System.FormatException: Could not parse the JSON file.
+ ---> System.Text.Json.JsonReaderException: 'S' is an invalid escapable character within a JSON string. The string should be correctly escaped. LineNumber: 9 | BytePositionInLine: 43.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeStringAndValidate(ReadOnlySpan`1 data, Int32 idx)
+   at System.Text.Json.Utf8JsonReader.ConsumeString()
+   at System.Text.Json.Utf8JsonReader.ConsumeValue(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.JsonDocument.Parse(ReadOnlySpan`1 utf8JsonSpan, JsonReaderOptions readerOptions, MetadataDb& database, StackRowStack& stack)
+   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory`1 utf8Json, JsonReaderOptions readerOptions, Byte[] extraRentedArrayPoolBytes, PooledByteBufferWriter extraPooledByteBufferWriter)
+   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory`1 json, JsonDocumentOptions options)
+   at System.Text.Json.JsonDocument.Parse(String json, JsonDocumentOptions options)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationFileParser.ParseStream(Stream input)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider.Load(Stream stream)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider.Load(Stream stream)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.ConfigurationManager.AddSource(IConfigurationSource source)
+   at Microsoft.Extensions.Configuration.ConfigurationManager.Microsoft.Extensions.Configuration.IConfigurationBuilder.Add(IConfigurationSource source)
+   at Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(IConfigurationBuilder builder, String path, Boolean optional, Boolean reloadOnChange)
+   at Microsoft.Extensions.Hosting.HostingHostBuilderExtensions.ApplyDefaultAppConfiguration(HostBuilderContext hostingContext, IConfigurationBuilder appConfigBuilder, String[] args)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder..ctor(HostApplicationBuilderSettings settings)
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder..ctor(WebApplicationOptions options, Action`1 configureDefaults)
+   at Microsoft.AspNetCore.Builder.WebApplication.CreateBuilder(String[] args)
+   at Program.<Main>$(String[] args) in C:\Users\2492212\OneDrive - Cognizant\Desktop\final project\AuthService\Program.cs:line 29
+2026-05-30 17:05:28.583 +05:30 [INF] AuthService | Starting Auth Service...
+2026-05-30 17:05:28.782 +05:30 [INF] AuthService | JWT configured with Issuer: SmartHotelBooking
+2026-05-30 17:05:28.841 +05:30 [FTL] AuthService | Auth Service failed to start
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\2492212\OneDrive - Cognizant\Desktop\final project\AuthService\Program.cs:line 99
+2026-05-30 17:09:21.448 +05:30 [INF] AuthService | Starting Auth Service...
+2026-05-30 17:09:21.678 +05:30 [INF] AuthService | JWT configured with Issuer: SmartHotelBooking
+2026-05-30 17:09:21.855 +05:30 [INF] AuthService | Auth Service started successfully on port 5001
+2026-05-30 17:09:22.001 +05:30 [INF] AuthService | Now listening on: http://localhost:5001
+2026-05-30 17:09:22.009 +05:30 [INF] AuthService | Application started. Press Ctrl+C to shut down.
+2026-05-30 17:09:22.013 +05:30 [INF] AuthService | Hosting environment: Development
+2026-05-30 17:09:22.017 +05:30 [INF] AuthService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\final project\AuthService
+2026-05-30 17:29:06.730 +05:30 [INF] AuthService | Starting Auth Service...
+2026-05-30 17:29:07.000 +05:30 [INF] AuthService | JWT configured with Issuer: SmartHotelBooking
+2026-05-30 17:29:07.186 +05:30 [INF] AuthService | Auth Service started successfully on port 5001
+2026-05-30 17:29:07.332 +05:30 [INF] AuthService | Now listening on: http://localhost:5001
+2026-05-30 17:29:07.339 +05:30 [INF] AuthService | Application started. Press Ctrl+C to shut down.
+2026-05-30 17:29:07.343 +05:30 [INF] AuthService | Hosting environment: Development
+2026-05-30 17:29:07.348 +05:30 [INF] AuthService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\final project\AuthService

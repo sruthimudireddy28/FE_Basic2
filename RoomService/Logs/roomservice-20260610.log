@@ -1,0 +1,12 @@
+2026-06-10 10:13:34.717 +05:30 [INF] RoomService | Starting Room Service...
+2026-06-10 10:13:43.063 +05:30 [INF] RoomService | Room Service started successfully on port 5003
+2026-06-10 10:13:44.980 +05:30 [INF] RoomService | Now listening on: http://localhost:5003
+2026-06-10 10:13:47.167 +05:30 [INF] RoomService | Application started. Press Ctrl+C to shut down.
+2026-06-10 10:13:47.409 +05:30 [INF] RoomService | Hosting environment: Development
+2026-06-10 10:13:47.728 +05:30 [INF] RoomService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\RoomService
+2026-06-10 12:08:52.504 +05:30 [INF] RoomService | Starting Room Service...
+2026-06-10 12:08:56.125 +05:30 [INF] RoomService | Room Service started successfully on port 5003
+2026-06-10 12:08:56.813 +05:30 [INF] RoomService | Now listening on: http://localhost:5003
+2026-06-10 12:08:56.957 +05:30 [INF] RoomService | Application started. Press Ctrl+C to shut down.
+2026-06-10 12:08:56.960 +05:30 [INF] RoomService | Hosting environment: Development
+2026-06-10 12:08:56.961 +05:30 [INF] RoomService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\RoomService

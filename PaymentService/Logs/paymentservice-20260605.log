@@ -1,0 +1,40 @@
+2026-06-05 08:41:31.414 +05:30 [INF] PaymentService | Starting Payment Service...
+2026-06-05 08:41:38.123 +05:30 [INF] PaymentService | Payment Service started successfully on port 5005
+2026-06-05 08:41:39.855 +05:30 [INF] PaymentService | Now listening on: http://localhost:5005
+2026-06-05 08:41:40.894 +05:30 [INF] PaymentService | Application started. Press Ctrl+C to shut down.
+2026-06-05 08:41:40.970 +05:30 [INF] PaymentService | Hosting environment: Development
+2026-06-05 08:41:41.160 +05:30 [INF] PaymentService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\PaymentService
+2026-06-05 08:44:30.767 +05:30 [INF] PaymentService | Starting Payment Service...
+2026-06-05 08:44:37.524 +05:30 [INF] PaymentService | Payment Service started successfully on port 5005
+2026-06-05 08:44:38.604 +05:30 [INF] PaymentService | Now listening on: http://localhost:5005
+2026-06-05 08:44:38.897 +05:30 [INF] PaymentService | Application started. Press Ctrl+C to shut down.
+2026-06-05 08:44:38.923 +05:30 [INF] PaymentService | Hosting environment: Development
+2026-06-05 08:44:38.950 +05:30 [INF] PaymentService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\PaymentService
+2026-06-05 09:25:43.611 +05:30 [INF] PaymentService | Starting Payment Service...
+2026-06-05 09:25:50.522 +05:30 [INF] PaymentService | Payment Service started successfully on port 5005
+2026-06-05 09:25:51.855 +05:30 [INF] PaymentService | Now listening on: http://localhost:5005
+2026-06-05 09:25:52.470 +05:30 [INF] PaymentService | Application started. Press Ctrl+C to shut down.
+2026-06-05 09:25:53.788 +05:30 [INF] PaymentService | Hosting environment: Development
+2026-06-05 09:25:53.797 +05:30 [INF] PaymentService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\PaymentService
+2026-06-05 10:28:07.465 +05:30 [INF] PaymentService | Starting Payment Service...
+2026-06-05 10:28:11.869 +05:30 [INF] PaymentService | Payment Service started successfully on port 5005
+2026-06-05 10:28:12.792 +05:30 [INF] PaymentService | Now listening on: http://localhost:5005
+2026-06-05 10:28:13.138 +05:30 [INF] PaymentService | Application started. Press Ctrl+C to shut down.
+2026-06-05 10:28:13.143 +05:30 [INF] PaymentService | Hosting environment: Development
+2026-06-05 10:28:13.146 +05:30 [INF] PaymentService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\PaymentService
+2026-06-05 14:10:55.153 +05:30 [INF] PaymentService | Starting Payment Service...
+2026-06-05 14:10:59.238 +05:30 [INF] PaymentService | Payment Service started successfully on port 5005
+2026-06-05 14:11:00.225 +05:30 [INF] PaymentService | Now listening on: http://localhost:5005
+2026-06-05 14:11:00.642 +05:30 [INF] PaymentService | Application started. Press Ctrl+C to shut down.
+2026-06-05 14:11:00.702 +05:30 [INF] PaymentService | Hosting environment: Development
+2026-06-05 14:11:00.726 +05:30 [INF] PaymentService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\PaymentService
+2026-06-05 14:16:31.574 +05:30 [INF] PaymentService | Starting Payment Service...
+2026-06-05 14:16:35.147 +05:30 [INF] PaymentService | Payment Service started successfully on port 5005
+2026-06-05 14:16:35.843 +05:30 [INF] PaymentService | Now listening on: http://localhost:5005
+2026-06-05 14:16:36.162 +05:30 [INF] PaymentService | Application started. Press Ctrl+C to shut down.
+2026-06-05 14:16:36.370 +05:30 [INF] PaymentService | Hosting environment: Development
+2026-06-05 14:16:36.436 +05:30 [INF] PaymentService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\PaymentService
+2026-06-05 14:28:25.828 +05:30 [INF] PaymentService | Start processing HTTP request PUT http://localhost:5004/api/bookings/3/payment
+2026-06-05 14:28:25.834 +05:30 [INF] PaymentService | Sending HTTP request PUT http://localhost:5004/api/bookings/3/payment
+2026-06-05 14:28:25.991 +05:30 [INF] PaymentService | Received HTTP response headers after 150.275ms - 200
+2026-06-05 14:28:25.998 +05:30 [INF] PaymentService | End processing HTTP request after 175.2599ms - 200

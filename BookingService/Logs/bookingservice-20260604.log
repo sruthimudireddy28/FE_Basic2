@@ -1,0 +1,20 @@
+2026-06-04 17:59:42.721 +05:30 [INF] BookingService | Starting Booking Service...
+2026-06-04 17:59:52.652 +05:30 [INF] BookingService | Booking Service started successfully on port 5004
+2026-06-04 17:59:53.392 +05:30 [INF] BookingService | Now listening on: http://localhost:5004
+2026-06-04 17:59:53.524 +05:30 [INF] BookingService | Application started. Press Ctrl+C to shut down.
+2026-06-04 17:59:53.527 +05:30 [INF] BookingService | Hosting environment: Development
+2026-06-04 17:59:53.546 +05:30 [INF] BookingService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\BookingService
+2026-06-04 21:09:35.875 +05:30 [INF] BookingService | Starting Booking Service...
+2026-06-04 21:09:39.277 +05:30 [INF] BookingService | Booking Service started successfully on port 5004
+2026-06-04 21:09:40.219 +05:30 [INF] BookingService | Now listening on: http://localhost:5004
+2026-06-04 21:09:40.419 +05:30 [INF] BookingService | Application started. Press Ctrl+C to shut down.
+2026-06-04 21:09:40.433 +05:30 [INF] BookingService | Hosting environment: Development
+2026-06-04 21:09:40.436 +05:30 [INF] BookingService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\BookingService
+2026-06-04 21:42:55.168 +05:30 [INF] BookingService | Start processing HTTP request GET http://localhost:5003/api/rooms/3
+2026-06-04 21:42:55.179 +05:30 [INF] BookingService | Sending HTTP request GET http://localhost:5003/api/rooms/3
+2026-06-04 21:42:55.267 +05:30 [INF] BookingService | Received HTTP response headers after 77.3934ms - 200
+2026-06-04 21:42:55.283 +05:30 [INF] BookingService | End processing HTTP request after 125.6194ms - 200
+2026-06-04 21:42:55.711 +05:30 [INF] BookingService | Start processing HTTP request PUT http://localhost:5003/api/rooms/3/availability
+2026-06-04 21:42:55.717 +05:30 [INF] BookingService | Sending HTTP request PUT http://localhost:5003/api/rooms/3/availability
+2026-06-04 21:42:55.739 +05:30 [INF] BookingService | Received HTTP response headers after 17.2551ms - 401
+2026-06-04 21:42:55.743 +05:30 [INF] BookingService | End processing HTTP request after 31.3818ms - 401

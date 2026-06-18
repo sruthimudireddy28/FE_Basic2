@@ -1,0 +1,22 @@
+2026-06-09 08:35:32.327 +05:30 [INF] PaymentService | Starting Payment Service...
+2026-06-09 08:36:57.346 +05:30 [INF] PaymentService | Payment Service started successfully on port 5005
+2026-06-09 08:36:58.186 +05:30 [INF] PaymentService | Now listening on: http://localhost:5005
+2026-06-09 08:36:58.359 +05:30 [INF] PaymentService | Application started. Press Ctrl+C to shut down.
+2026-06-09 08:36:58.541 +05:30 [INF] PaymentService | Hosting environment: Development
+2026-06-09 08:36:58.774 +05:30 [INF] PaymentService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\PaymentService
+2026-06-09 08:44:36.956 +05:30 [INF] PaymentService | Starting Payment Service...
+2026-06-09 08:44:38.767 +05:30 [INF] PaymentService | Payment Service started successfully on port 5005
+2026-06-09 08:44:39.200 +05:30 [INF] PaymentService | Now listening on: http://localhost:5005
+2026-06-09 08:44:39.318 +05:30 [INF] PaymentService | Application started. Press Ctrl+C to shut down.
+2026-06-09 08:44:39.321 +05:30 [INF] PaymentService | Hosting environment: Development
+2026-06-09 08:44:39.323 +05:30 [INF] PaymentService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\PaymentService
+2026-06-09 08:51:44.930 +05:30 [INF] PaymentService | Starting Payment Service...
+2026-06-09 08:51:48.850 +05:30 [INF] PaymentService | Payment Service started successfully on port 5005
+2026-06-09 08:51:49.428 +05:30 [INF] PaymentService | Now listening on: http://localhost:5005
+2026-06-09 08:51:49.557 +05:30 [INF] PaymentService | Application started. Press Ctrl+C to shut down.
+2026-06-09 08:51:49.831 +05:30 [INF] PaymentService | Hosting environment: Development
+2026-06-09 08:51:49.939 +05:30 [INF] PaymentService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\PaymentService
+2026-06-09 09:11:52.046 +05:30 [INF] PaymentService | Start processing HTTP request PUT http://localhost:5004/api/bookings/4/payment
+2026-06-09 09:11:52.054 +05:30 [INF] PaymentService | Sending HTTP request PUT http://localhost:5004/api/bookings/4/payment
+2026-06-09 09:11:52.226 +05:30 [INF] PaymentService | Received HTTP response headers after 167.3336ms - 200
+2026-06-09 09:11:52.235 +05:30 [INF] PaymentService | End processing HTTP request after 194.0109ms - 200

@@ -1,0 +1,26 @@
+2026-06-09 08:35:32.995 +05:30 [INF] BookingService | Starting Booking Service...
+2026-06-09 08:36:58.832 +05:30 [INF] BookingService | Booking Service started successfully on port 5004
+2026-06-09 08:37:00.375 +05:30 [INF] BookingService | Now listening on: http://localhost:5004
+2026-06-09 08:37:01.302 +05:30 [INF] BookingService | Application started. Press Ctrl+C to shut down.
+2026-06-09 08:37:01.308 +05:30 [INF] BookingService | Hosting environment: Development
+2026-06-09 08:37:01.310 +05:30 [INF] BookingService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\BookingService
+2026-06-09 08:41:22.113 +05:30 [INF] BookingService | Starting Booking Service...
+2026-06-09 08:44:38.454 +05:30 [INF] BookingService | Booking Service started successfully on port 5004
+2026-06-09 08:44:39.033 +05:30 [INF] BookingService | Now listening on: http://localhost:5004
+2026-06-09 08:44:39.136 +05:30 [INF] BookingService | Application started. Press Ctrl+C to shut down.
+2026-06-09 08:44:39.180 +05:30 [INF] BookingService | Hosting environment: Development
+2026-06-09 08:44:39.186 +05:30 [INF] BookingService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\BookingService
+2026-06-09 08:51:44.944 +05:30 [INF] BookingService | Starting Booking Service...
+2026-06-09 08:51:48.874 +05:30 [INF] BookingService | Booking Service started successfully on port 5004
+2026-06-09 08:51:49.446 +05:30 [INF] BookingService | Now listening on: http://localhost:5004
+2026-06-09 08:51:49.579 +05:30 [INF] BookingService | Application started. Press Ctrl+C to shut down.
+2026-06-09 08:51:49.589 +05:30 [INF] BookingService | Hosting environment: Development
+2026-06-09 08:51:49.599 +05:30 [INF] BookingService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\BookingService
+2026-06-09 09:06:29.480 +05:30 [INF] BookingService | Start processing HTTP request GET http://localhost:5003/api/rooms/3
+2026-06-09 09:06:29.487 +05:30 [INF] BookingService | Sending HTTP request GET http://localhost:5003/api/rooms/3
+2026-06-09 09:06:29.756 +05:30 [INF] BookingService | Received HTTP response headers after 264.2144ms - 200
+2026-06-09 09:06:29.766 +05:30 [INF] BookingService | End processing HTTP request after 293.7303ms - 200
+2026-06-09 09:06:30.118 +05:30 [INF] BookingService | Start processing HTTP request PUT http://localhost:5003/api/rooms/3/availability
+2026-06-09 09:06:30.121 +05:30 [INF] BookingService | Sending HTTP request PUT http://localhost:5003/api/rooms/3/availability
+2026-06-09 09:06:30.141 +05:30 [INF] BookingService | Received HTTP response headers after 17.4963ms - 401
+2026-06-09 09:06:30.144 +05:30 [INF] BookingService | End processing HTTP request after 25.5894ms - 401

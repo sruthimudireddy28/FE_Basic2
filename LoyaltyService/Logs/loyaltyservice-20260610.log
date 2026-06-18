@@ -1,0 +1,12 @@
+2026-06-10 10:13:32.989 +05:30 [INF] LoyaltyService | Starting Loyalty Service...
+2026-06-10 10:13:40.852 +05:30 [INF] LoyaltyService | Loyalty Service started successfully on port 5007
+2026-06-10 10:13:42.354 +05:30 [INF] LoyaltyService | Now listening on: http://localhost:5007
+2026-06-10 10:13:42.591 +05:30 [INF] LoyaltyService | Application started. Press Ctrl+C to shut down.
+2026-06-10 10:13:42.601 +05:30 [INF] LoyaltyService | Hosting environment: Development
+2026-06-10 10:13:42.609 +05:30 [INF] LoyaltyService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\LoyaltyService
+2026-06-10 12:08:52.270 +05:30 [INF] LoyaltyService | Starting Loyalty Service...
+2026-06-10 12:08:55.828 +05:30 [INF] LoyaltyService | Loyalty Service started successfully on port 5007
+2026-06-10 12:08:56.702 +05:30 [INF] LoyaltyService | Now listening on: http://localhost:5007
+2026-06-10 12:08:56.835 +05:30 [INF] LoyaltyService | Application started. Press Ctrl+C to shut down.
+2026-06-10 12:08:56.868 +05:30 [INF] LoyaltyService | Hosting environment: Development
+2026-06-10 12:08:56.881 +05:30 [INF] LoyaltyService | Content root path: C:\Users\2492212\OneDrive - Cognizant\Desktop\sddr\fincl\LoyaltyService
