@@ -25,10 +25,10 @@
             <h3>Room {{r.roomNumber}} ({{r.roomType}})</h3>
             <p class="description">{{r.description}}</p>
             <div class="specs">
-              <span>🛏️ {{r.bedCount}} Beds</span> | 
-              <span>👥 Max Occupancy: {{r.maxOccupancy}}</span>
+              <span>Beds: {{r.bedCount}}</span> | 
+              <span>Max Occupancy: {{r.maxOccupancy}}</span>
             </div>
-            <p class="price">Price: <strong>₹{{r.pricePerNight}}</strong> / night</p>
+            <p class="price">Price: ₹{{r.pricePerNight}} / night</p>
             
             <div class="room-amenities">
               @if (r.amenities && r.amenities.length > 0) {

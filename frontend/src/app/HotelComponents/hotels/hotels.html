@@ -6,23 +6,23 @@
         @if (s.imageUrl) {
           <img [src]="s.imageUrl" alt="{{s.name}}" class="hotel-image">
         } @else {
-          <div class="hotel-image-placeholder">No Image Available</div>
+          <div class="hotel-image-placeholder">No Image</div>
         }
         <div class="hotel-info">
           <h3>{{s.name}}</h3>
-          <p class="location">📍 {{s.city}}, {{s.state}}, {{s.country}}</p>
+          <p class="location">{{s.city}}, {{s.state}}, {{s.country}}</p>
           <p class="description">{{s.description}}</p>
-          <p class="rating">⭐ {{s.rating}}/5 ({{s.totalReviews}} reviews)</p>
+          <p class="rating">Rating: {{s.rating}}/5 ({{s.totalReviews}} reviews)</p>
           
           <div class="card-actions">
-            <a [routerLink]="['/rooms-by-hotel', s.hotelId]" class="card-btn view-btn">View Rooms</a>
-            <a [routerLink]="['/available-rooms', s.hotelId]" class="card-btn avail-btn">Available Rooms</a>
-            <a [routerLink]="['/hotel-reviews', s.hotelId]" class="card-btn reviews-btn">Reviews</a>
-            <a [routerLink]="['/update-hotel', s.hotelId]" class="card-btn edit-btn">Edit</a>
+            <a [routerLink]="['/rooms-by-hotel', s.hotelId]" class="card-btn">View Rooms</a>
+            <a [routerLink]="['/hotel-reviews', s.hotelId]" class="card-btn">Reviews</a>
+            <a [routerLink]="['/update-hotel', s.hotelId]" class="card-btn">Edit</a>
             <a [routerLink]="['/delete-hotel', s.hotelId]" class="card-btn delete-btn">Delete</a>
           </div>
         </div>
       </div>
     }
   </div>
-</div>
+</div>
+
