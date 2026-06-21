@@ -1,83 +1,55 @@
 <h1>Search Available Rooms</h1>
 
+<div class="search-form">
+  <label>Check-In:</label>
+  <input type="date" [(ngModel)]="checkIn">
 
+  <label>Check-Out:</label>
+  <input type="date" [(ngModel)]="checkOut">
 
-<label>Check-In:</label>
-<input type="date" [(ngModel)]="checkIn"><br><br>
+  <button (click)="getAvailableRooms()">Search</button>
+</div>
 
-<label>Check-Out:</label>
-<input type="date" [(ngModel)]="checkOut"><br><br>
-
-<button (click)="getAvailableRooms()">Search</button>
-
-<br><br>
-
-<!-- No Data Message -->
-@if (rooms.length === 0)
-{
-  <p style="color:red;">No available rooms found</p>
-}
-
-<table>
-  <tr>
-    <td>RoomId</td>
-    <td>Room Number</td>
-    <td>Room Type</td>
-    <td>Price</td>
-    <td>Max Occupancy</td>
-    <td>Available</td>
-    <td>Main Image</td>
-    <td>Images</td>
-    <td>Amenities</td>
-    <td>Actions</td>
-  </tr>
-
-  @for (r of rooms; track r.roomId)
-  {
-    <tr>
-      <td>{{r.roomId}}</td>
-      <td>{{r.roomNumber}}</td>
-      <td>{{r.roomType}}</td>
-      <td>{{r.pricePerNight}}</td>
-      <td>{{r.maxOccupancy}}</td>
-      <td>{{r.isAvailable}}</td>
-
-      <!-- Main Image -->
-      <td>
-        @if (r.imageUrl)
-        {
-          <img [src]="r.imageUrl" width="80">
-        }
-      </td>
-
-      <!-- Multiple Images -->
-      <td>
-        @if (r.imageUrls && r.imageUrls.length > 0)
-        {
-          @for (img of r.imageUrls; track img)
-          {
-            <img [src]="img" width="60"><br>
+<div class="rooms-container">
+  @if (rooms && rooms.length > 0) {
+    <div class="rooms-grid">
+      @for (r of rooms; track r.roomId) {
+        <div class="room-card">
+          @if (r.imageUrl) {
+            <img [src]="r.imageUrl" alt="Room {{r.roomNumber}}" class="room-image">
+          } @else {
+            <div class="room-image-placeholder">No Room Image</div>
           }
-        }
-      </td>
+          
+          <div class="room-info">
+            <h3>Room {{r.roomNumber}} ({{r.roomType}})</h3>
+            <p class="description">{{r.description}}</p>
+            <div class="specs">
+              <span>🛏️ {{r.bedCount}} Beds</span> | 
+              <span>👥 Max Occupancy: {{r.maxOccupancy}}</span>
+            </div>
+            <p class="price">Price: <strong>₹{{r.pricePerNight}}</strong> / night</p>
+            
+            <div class="room-amenities">
+              @if (r.amenities && r.amenities.length > 0) {
+                @for (a of r.amenities; track a.amenityId) {
+                  <span class="amenity-badge">{{a.name}}</span>
+                }
+              }
+            </div>
 
-      <!-- Amenities -->
-      <td>
-        @if (r.amenities && r.amenities.length > 0)
-        {
-          @for (a of r.amenities; track a.amenityId)
-          {
-            <span>{{a.name}}</span><br>
-          }
-        }
-      </td>
-      <td>
-        @if (r.isAvailable) {
-          <a [routerLink]="['/create-booking', hotelId, r.roomId]">Book Room</a>
-        } @else {
-          Unavailable
-        }
-      </td>
-    </tr>
+            <div class="card-actions">
+              @if (r.isAvailable) {
+                <a [routerLink]="['/create-booking', hotelId, r.roomId]" class="card-btn book-btn">Book Room</a>
+              } @else {
+                <span class="card-btn unavailable-btn">Not Available</span>
+              }
+            </div>
+          </div>
+        </div>
+      }
+    </div>
+  } @else {
+    <p class="no-rooms-msg">No available rooms found for the selected dates.</p>
   }
-</table>
+</div>
