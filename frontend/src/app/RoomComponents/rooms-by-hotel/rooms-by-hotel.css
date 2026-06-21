@@ -141,6 +141,15 @@ h1 {
     margin: 0 0 5px 0;
 }
 
+.hotel-summary-image {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    display: block;
+}
+
 .hotel-summary .location {
     font-size: 13px;
     color: #555;

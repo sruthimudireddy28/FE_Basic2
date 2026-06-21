@@ -109,4 +109,35 @@ h1 {
     border-color: #c0392b;
 }
 
+.date-selection {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fafafa;
+    width: fit-content;
+}
+
+.date-field {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.date-field label {
+    font-size: 11px;
+    color: #333;
+    font-weight: bold;
+}
+
+.date-field input[type="date"] {
+    padding: 5px;
+    font-size: 11px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+
 

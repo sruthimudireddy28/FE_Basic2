@@ -1,4 +1,15 @@
-<h1>Search Available Rooms</h1>
+@if (hotel) {
+  <div class="hotel-summary">
+    <h2>{{hotel.name}}</h2>
+    @if (hotel.imageUrl) {
+      <img [src]="hotel.imageUrl" alt="{{hotel.name}}" class="hotel-summary-image">
+    }
+    <p class="location">{{hotel.city}}, {{hotel.state}}, {{hotel.country}}</p>
+    <p class="description">{{hotel.description}}</p>
+  </div>
+} @else {
+  <h1>Search Available Rooms</h1>
+}
 
 <div class="search-form">
   <label>Check-In:</label>
@@ -50,6 +61,6 @@
       }
     </div>
   } @else {
-    <p class="no-rooms-msg">No available rooms found for the selected dates.</p>
+    <p class="no-rooms-msg">No Rooms Available For Selected Dates</p>
   }
 </div>

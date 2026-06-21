@@ -1,5 +1,17 @@
 <div class="hotels-container">
   <h1>Hotels</h1>
+  
+  <div class="date-selection">
+    <div class="date-field">
+      <label>Check-In Date:</label>
+      <input type="date" [(ngModel)]="checkIn">
+    </div>
+    <div class="date-field">
+      <label>Check-Out Date:</label>
+      <input type="date" [(ngModel)]="checkOut">
+    </div>
+  </div>
+
   <div class="cards-grid">
     @for(s of hotels; track s.hotelId) {
       <div class="hotel-card">
@@ -15,7 +27,8 @@
           <p class="rating">Rating: {{s.rating}}/5 ({{s.totalReviews}} reviews)</p>
           
           <div class="card-actions">
-            <a [routerLink]="['/rooms-by-hotel', s.hotelId]" class="card-btn">View Rooms</a>
+            <a [routerLink]="['/rooms-by-hotel', s.hotelId]" class="card-btn">View All Rooms</a>
+            <a [routerLink]="['/available-rooms', s.hotelId]" [queryParams]="{ checkIn: checkIn, checkOut: checkOut }" class="card-btn">View Available Rooms</a>
             <a [routerLink]="['/hotel-reviews', s.hotelId]" class="card-btn">Reviews</a>
             @if (isAdmin) {
               <a [routerLink]="['/update-hotel', s.hotelId]" class="card-btn">Edit</a>

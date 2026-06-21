@@ -17,6 +17,7 @@ export class AvailableRooms {
   checkIn: string = '';
   checkOut: string = '';
   rooms: any[] = [];
+  hotel: any = null;
 
   constructor(private http: HttpClient, private route: ActivatedRoute) {}
 
@@ -24,7 +25,28 @@ export class AvailableRooms {
     const idParam = this.route.snapshot.paramMap.get('id');
     if (idParam) {
       this.hotelId = Number(idParam);
+      this.getHotelDetails();
+
+      const qCheckIn = this.route.snapshot.queryParamMap.get('checkIn');
+      const qCheckOut = this.route.snapshot.queryParamMap.get('checkOut');
+      if (qCheckIn && qCheckOut) {
+        this.checkIn = qCheckIn;
+        this.checkOut = qCheckOut;
+        this.getAvailableRooms();
+      }
     }
+  }
+
+  getHotelDetails() {
+    this.http.get<any>(`http://localhost:5000/api/hotels/${this.hotelId}`)
+      .subscribe({
+        next: (res) => {
+          this.hotel = res.data;
+        },
+        error: (err) => {
+          console.log(err);
+        }
+      });
   }
 
   getAvailableRooms() {

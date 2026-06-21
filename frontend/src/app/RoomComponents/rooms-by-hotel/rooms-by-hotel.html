@@ -2,6 +2,9 @@
   @if (hotel) {
     <div class="hotel-summary">
       <h2>{{hotel.name}}</h2>
+      @if (hotel.imageUrl) {
+        <img [src]="hotel.imageUrl" alt="{{hotel.name}}" class="hotel-summary-image">
+      }
       <p class="location">{{hotel.city}}, {{hotel.state}}, {{hotel.country}}</p>
       <p class="description">{{hotel.description}}</p>
     </div>
