@@ -1,64 +1,28 @@
-
-<h1>Hotels</h1>
-<table>
-    <tr>
-        <td>HotelId</td>
-        <td>Name</td>
-        <td>Location</td>
-        <td>Address</td>
-        <td>City</td>
-        <td>State</td>
-        <td>Country</td>
-        <td>ZipCode</td>
-        <td>ManagerId</td>
-        <td>Description</td>
-        <td>ImageUrl</td>
-        <td>ImageUrls</td>
-        <td>Rating</td>
-        <td>TotalReviews</td>
-        <td>ContactNumber</td>
-        <td>Email</td>
-        <td>IsActive</td>
-        <td>Amenities</td>
-        <td>CreatedAt</td>
-        <td>Actions</td>
-    </tr>
-    @for(s of hotels;track s.hotelId)
-    {
-        <tr>
-            <td>{{s.hotelId}}</td>
-            <td>{{s.name}}</td>
-            <td>{{s.location}}</td>
-            <td>{{s.address}}</td>
-            <td>{{s.city}}</td>
-            <td>{{s.state}}</td>
-            <td>{{s.country}}</td>
-            <td>{{s.zipCode}}</td>
-            <td>{{s.managerId}}</td>
-            <td>{{s.description}}</td>
-            <td>{{s.imageUrl}}</td>
-            <td>{{s.imageUrls}}</td>
-            <td>{{s.rating}}</td>
-            <td>{{s.totalReviews}}</td>
-            <td>{{s.contactNumber}}</td>
-            <td>{{s.email}}</td>
-            <td>{{s.isActive}}</td>
-            <td>
-                @if(s.amenities)
-                {
-                    @for(a of s.amenities;track a.amenityId)
-                    {
-                        <span>{{a.name}}</span>
-                    }
-                }
-            </td>
-            <td>{{s.createdAt}}</td>
-            <td>
-                <a [routerLink]="['/rooms-by-hotel', s.hotelId]" style="margin-right: 5px;">Rooms</a> | 
-                <a [routerLink]="['/available-rooms', s.hotelId]" style="margin-right: 5px;">Available</a> | 
-                <a [routerLink]="['/update-hotel', s.hotelId]" style="margin-right: 5px;">Edit</a> | 
-                <a [routerLink]="['/delete-hotel', s.hotelId]" style="color: red;">Delete</a>
-            </td>
-        </tr>
+<div class="hotels-container">
+  <h1>Hotels</h1>
+  <div class="cards-grid">
+    @for(s of hotels; track s.hotelId) {
+      <div class="hotel-card">
+        @if (s.imageUrl) {
+          <img [src]="s.imageUrl" alt="{{s.name}}" class="hotel-image">
+        } @else {
+          <div class="hotel-image-placeholder">No Image Available</div>
+        }
+        <div class="hotel-info">
+          <h3>{{s.name}}</h3>
+          <p class="location">📍 {{s.city}}, {{s.state}}, {{s.country}}</p>
+          <p class="description">{{s.description}}</p>
+          <p class="rating">⭐ {{s.rating}}/5 ({{s.totalReviews}} reviews)</p>
+          
+          <div class="card-actions">
+            <a [routerLink]="['/rooms-by-hotel', s.hotelId]" class="card-btn view-btn">View Rooms</a>
+            <a [routerLink]="['/available-rooms', s.hotelId]" class="card-btn avail-btn">Available Rooms</a>
+            <a [routerLink]="['/hotel-reviews', s.hotelId]" class="card-btn reviews-btn">Reviews</a>
+            <a [routerLink]="['/update-hotel', s.hotelId]" class="card-btn edit-btn">Edit</a>
+            <a [routerLink]="['/delete-hotel', s.hotelId]" class="card-btn delete-btn">Delete</a>
+          </div>
+        </div>
+      </div>
     }
-</table>
+  </div>
+</div>
