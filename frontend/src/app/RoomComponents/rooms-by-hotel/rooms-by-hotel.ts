@@ -15,6 +15,7 @@ export class RoomsByHotel {
 
   hotelId: number = 0;
   rooms: any[] = [];
+  hotel: any = null;
 
   constructor(private http: HttpClient, private route: ActivatedRoute) {}
 
@@ -22,8 +23,21 @@ export class RoomsByHotel {
     const idParam = this.route.snapshot.paramMap.get('id');
     if (idParam) {
       this.hotelId = Number(idParam);
+      this.getHotelDetails();
       this.getRooms();
     }
+  }
+
+  getHotelDetails() {
+    this.http.get<any>(`http://localhost:5000/api/hotels/${this.hotelId}`)
+      .subscribe({
+        next: (res) => {
+          this.hotel = res.data;
+        },
+        error: (err) => {
+          console.log(err);
+        }
+      });
   }
 
   getRooms() {

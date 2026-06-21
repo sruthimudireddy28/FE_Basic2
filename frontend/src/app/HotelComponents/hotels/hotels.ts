@@ -18,6 +18,11 @@ export interface ApiResponse {
 })
 export class Hotels {
   hotels:Array<Hotel>=[];
+  
+  get isAdmin(): boolean {
+    return localStorage.getItem('userRole') === 'Admin';
+  }
+
   constructor(private client: HttpClient) {}
     ngOnInit():void{
       this.client.get<ApiResponse>('http://localhost:5000/api/hotels')

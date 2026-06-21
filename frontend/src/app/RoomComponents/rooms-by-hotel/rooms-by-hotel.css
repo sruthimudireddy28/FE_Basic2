@@ -129,4 +129,36 @@ h1 {
     font-weight: normal;
 }
 
+.hotel-summary {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.hotel-summary h2 {
+    font-family: sans-serif;
+    color: #333;
+    margin: 0 0 5px 0;
+}
+
+.hotel-summary .location {
+    font-size: 13px;
+    color: #555;
+    margin: 0 0 8px 0;
+}
+
+.hotel-summary .description {
+    font-size: 13px;
+    color: #333;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.no-rooms-msg {
+    font-size: 14px;
+    color: #666;
+    margin-top: 15px;
+}
+
+
 

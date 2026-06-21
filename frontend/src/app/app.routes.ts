@@ -13,7 +13,6 @@ import { LoginComponent } from './AuthComponents/login/login/login';
 import { RegisterComponent } from './AuthComponents/register/register/register';
 import { RoomsByHotel } from './RoomComponents/rooms-by-hotel/rooms-by-hotel';
 import { AvailableRooms } from './RoomComponents/available-rooms/available-rooms';
-import { SearchRooms } from './RoomComponents/search-rooms/search-rooms';
 
 
 import { CreateBooking } from './BookingComponents/create-booking/create-booking';
@@ -46,7 +45,6 @@ export const routes: Routes = [
     {path:'rooms-by-hotel/:id',component:RoomsByHotel},
     {path:'available-rooms',component:AvailableRooms},
     {path:'available-rooms/:id',component:AvailableRooms},
-    {path:'search-rooms',component:SearchRooms},
     {path:'create-booking/:hotelId/:roomId',component:CreateBooking},
     {path:'my-bookings',component:MyBookings},
     {path:'all-bookings',component:AllBookings},

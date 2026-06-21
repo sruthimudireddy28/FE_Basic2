@@ -17,8 +17,10 @@
           <div class="card-actions">
             <a [routerLink]="['/rooms-by-hotel', s.hotelId]" class="card-btn">View Rooms</a>
             <a [routerLink]="['/hotel-reviews', s.hotelId]" class="card-btn">Reviews</a>
-            <a [routerLink]="['/update-hotel', s.hotelId]" class="card-btn">Edit</a>
-            <a [routerLink]="['/delete-hotel', s.hotelId]" class="card-btn delete-btn">Delete</a>
+            @if (isAdmin) {
+              <a [routerLink]="['/update-hotel', s.hotelId]" class="card-btn">Edit</a>
+              <a [routerLink]="['/delete-hotel', s.hotelId]" class="card-btn delete-btn">Delete</a>
+            }
           </div>
         </div>
       </div>

@@ -1,5 +1,13 @@
 <div class="rooms-container">
-  <h1>Rooms for Hotel ID: {{hotelId}}</h1>
+  @if (hotel) {
+    <div class="hotel-summary">
+      <h2>{{hotel.name}}</h2>
+      <p class="location">{{hotel.city}}, {{hotel.state}}, {{hotel.country}}</p>
+      <p class="description">{{hotel.description}}</p>
+    </div>
+  } @else {
+    <h1>Rooms for Hotel ID: {{hotelId}}</h1>
+  }
   
   @if (rooms && rooms.length > 0) {
     <div class="rooms-grid">
@@ -41,6 +49,6 @@
       }
     </div>
   } @else {
-    <p>No rooms found for this hotel.</p>
+    <p class="no-rooms-msg">No Rooms Available</p>
   }
 </div>
