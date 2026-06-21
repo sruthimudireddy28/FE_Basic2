@@ -1,0 +1,16 @@
+<h2>Create Amenity</h2>
+
+  <label>Name:</label><br>
+  <input type="text" [(ngModel)]="newAmenity.name" name="name" required><br><br>
+
+  <label>Description:</label><br>
+  <input type="text" [(ngModel)]="newAmenity.description" name="description"><br><br>
+
+  <label>Icon URL:</label><br>
+  <input type="text" [(ngModel)]="newAmenity.icon" name="icon"><br><br>
+
+  <label>Category:</label><br>
+  <input type="text" [(ngModel)]="newAmenity.category" name="category"><br><br>
+
+  <button type="submit" (click)="createAmenity()">Create Amenity</button>
+

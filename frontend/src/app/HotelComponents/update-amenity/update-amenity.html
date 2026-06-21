@@ -1,0 +1,13 @@
+<h2>Update Amenity</h2>
+
+<!-- ✅ Form Fields -->
+<input [(ngModel)]="amenity.name" name="name" placeholder="Name"><br><br>
+
+<input [(ngModel)]="amenity.description" name="description" placeholder="Description"><br><br>
+
+<input [(ngModel)]="amenity.icon" name="icon" placeholder="Icon URL"><br><br>
+
+<input [(ngModel)]="amenity.category" name="category" placeholder="Category"><br><br>
+
+<!-- ✅ Update Button -->
+<button (click)="updateAmenity()">Update</button>

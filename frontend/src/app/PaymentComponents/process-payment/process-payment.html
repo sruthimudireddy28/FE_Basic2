@@ -1,0 +1,36 @@
+<h2>Process Booking Payment</h2>
+
+<div class="payment-container">
+  <p><strong>Booking ID:</strong> {{bookingId}}</p>
+  <p><strong>Total Amount due:</strong> ₹{{amount}}</p>
+
+  <!-- Loyalty Section -->
+  @if (loyaltyBalance > 0) {
+    <div class="loyalty-box">
+      <input type="checkbox" id="redeem" [(ngModel)]="redeemChecked">
+      <label for="redeem" style="display:inline; margin-left: 5px;">Redeem Loyalty Points? (Balance: {{loyaltyBalance}} pts)</label>
+      
+      @if (redeemChecked) {
+        <br><br>
+        <label>Points to Redeem:</label>
+        <input type="number" [(ngModel)]="pointsToRedeem" min="0" [max]="loyaltyBalance">
+      }
+    </div>
+    <br>
+  }
+
+  <!-- Card Details Form -->
+  <label>Cardholder Name:</label>
+  <input type="text" [(ngModel)]="paymentData.cardHolderName" placeholder="John Doe" required><br>
+
+  <label>Card Number:</label>
+  <input type="text" [(ngModel)]="paymentData.cardNumber" placeholder="1234 5678 9876 5432" required><br>
+
+  <label>Expiry Date:</label>
+  <input type="text" [(ngModel)]="paymentData.expiryDate" placeholder="MM/YY" required><br>
+
+  <label>CVV:</label>
+  <input type="password" [(ngModel)]="paymentData.cvv" placeholder="123" maxlength="3" required><br>
+
+  <button (click)="onPay()">Pay Amount</button>
+</div>

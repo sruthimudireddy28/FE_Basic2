@@ -1,0 +1,25 @@
+# Visual Studio temporary files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# .NET compile outputs
+**/bin/
+**/obj/
+**/Logs/
+
+# Angular / Node temporary files
+**/node_modules/
+**/dist/
+.angular/
+.sass-cache/
+npm-debug.log
+yarn-error.log
+
+# Operating System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store

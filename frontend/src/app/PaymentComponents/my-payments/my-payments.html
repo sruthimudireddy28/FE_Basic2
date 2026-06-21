@@ -1,0 +1,40 @@
+<h1>My Payment History</h1>
+
+@if (payments && payments.length > 0) {
+  <table>
+    <thead>
+      <tr>
+        <th>Payment ID</th>
+        <th>Booking ID</th>
+        <th>Original Amount</th>
+        <th>Points Redeemed</th>
+        <th>Discount Applied</th>
+        <th>Final Paid</th>
+        <th>Method</th>
+        <th>Transaction ID</th>
+        <th>Status</th>
+        <th>Date</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for (p of payments; track p.paymentId) {
+        <tr>
+          <td>{{p.paymentId}}</td>
+          <td>{{p.bookingId}}</td>
+          <td>₹{{p.amount}}</td>
+          <td>{{p.pointsRedeemed}}</td>
+          <td>₹{{p.loyaltyDiscountAmount}}</td>
+          <td>₹{{p.finalAmount}}</td>
+          <td>{{p.paymentMethod}}</td>
+          <td>{{p.transactionId}}</td>
+          <td>
+            <span [class]="'badge badge-' + p.status.toLowerCase()">{{p.status}}</span>
+          </td>
+          <td>{{p.paymentDate | date:'yyyy-MM-dd HH:mm'}}</td>
+        </tr>
+      }
+    </tbody>
+  </table>
+} @else {
+  <p>No payment transactions found.</p>
+}

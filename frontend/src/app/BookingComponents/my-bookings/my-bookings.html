@@ -1,0 +1,50 @@
+<h1>My Reservations</h1>
+
+@if (bookings && bookings.length > 0) {
+  <table>
+    <thead>
+      <tr>
+        <th>Booking ID</th>
+        <th>Hotel ID</th>
+        <th>Room ID</th>
+        <th>Check-In</th>
+        <th>Check-Out</th>
+        <th>Guests</th>
+        <th>Amount</th>
+        <th>Status</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for (b of bookings; track b.bookingId) {
+        <tr>
+          <td>{{b.bookingId}}</td>
+          <td>{{b.hotelId}}</td>
+          <td>{{b.roomId}}</td>
+          <td>{{b.checkInDate | date:'yyyy-MM-dd'}}</td>
+          <td>{{b.checkOutDate | date:'yyyy-MM-dd'}}</td>
+          <td>{{b.numberOfGuests}}</td>
+          <td>₹{{b.totalAmount}}</td>
+          <td>
+            <span [class]="'badge badge-' + b.status.toLowerCase()">{{b.status}}</span>
+          </td>
+          <td>
+            @if (b.status === 'PendingPayment') {
+              <a [routerLink]="['/process-payment', b.bookingId, b.totalAmount]" class="action-link pay-link">Pay Now</a>
+            }
+            @if (b.status !== 'Cancelled' && b.status !== 'Completed' && b.status !== 'Refunded') {
+              @if (b.status === 'PendingPayment') { | }
+              <button (click)="cancelBooking(b.bookingId)" class="action-btn cancel-btn">Cancel</button>
+            }
+            @if (b.status === 'Confirmed' || b.status === 'Completed') {
+              @if (b.status === 'Confirmed') { | }
+              <a [routerLink]="['/create-review', b.hotelId]" class="action-link review-link">Review Stay</a>
+            }
+          </td>
+        </tr>
+      }
+    </tbody>
+  </table>
+} @else {
+  <p>No bookings found. Head over to <a routerLink="/hotels">Hotels</a> to start booking!</p>
+}

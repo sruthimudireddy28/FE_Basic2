@@ -1,0 +1,29 @@
+@echo off
+echo Starting all backend microservices...
+
+echo Starting ApiGateway (Port 5000)...
+start "ApiGateway" cmd /k "cd ApiGateway && dotnet run"
+
+echo Starting AuthService (Port 5001)...
+start "AuthService" cmd /k "cd AuthService && dotnet run"
+
+echo Starting HotelService (Port 5002)...
+start "HotelService" cmd /k "cd HotelService && dotnet run"
+
+echo Starting RoomService (Port 5003)...
+start "RoomService" cmd /k "cd RoomService && dotnet run"
+
+echo Starting BookingService (Port 5004)...
+start "BookingService" cmd /k "cd BookingService && dotnet run"
+
+echo Starting PaymentService (Port 5005)...
+start "PaymentService" cmd /k "cd PaymentService && dotnet run"
+
+echo Starting ReviewService (Port 5006)...
+start "ReviewService" cmd /k "cd ReviewService && dotnet run"
+
+echo Starting LoyaltyService (Port 5007)...
+start "LoyaltyService" cmd /k "cd LoyaltyService && dotnet run"
+
+echo All services started! Keep these terminal windows open.
+pause

@@ -1,0 +1,25 @@
+<h1>Amenities Details</h1>
+<table>
+    <tr>
+        <td>AmenityId</td>
+        <td>Name</td>
+        <td>Description</td>
+        <td>Icon</td>
+        <td>Category</td>
+        <td>Actions</td>
+    </tr>
+    @for(s of amenity;track s.amenityId)
+    {
+        <tr>
+            <td>{{s.amenityId}}</td>
+            <td>{{s.name}}</td>
+            <td>{{s.description}}</td>
+            <td>{{s.icon}}</td>
+            <td>{{s.category}}</td>
+            <td>
+                <a [routerLink]="['/update-amenity', s.amenityId]" style="margin-right: 5px;">Edit</a> | 
+                <a [routerLink]="['/delete-amenity', s.amenityId]" style="color: red;">Delete</a>
+            </td>
+        </tr>
+    }
+</table>

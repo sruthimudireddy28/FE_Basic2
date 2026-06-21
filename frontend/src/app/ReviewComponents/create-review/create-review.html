@@ -1,0 +1,22 @@
+<h2>Submit Hotel Review</h2>
+
+<div class="review-container">
+  <p><strong>Hotel ID:</strong> {{reviewData.hotelId}}</p>
+
+  <label>Rating (1 to 5 Stars):</label>
+  <select [(ngModel)]="reviewData.rating">
+    <option [value]="5">5 - Excellent</option>
+    <option [value]="4">4 - Good</option>
+    <option [value]="3">3 - Average</option>
+    <option [value]="2">2 - Poor</option>
+    <option [value]="1">1 - Terrible</option>
+  </select><br>
+
+  <label>Review Title:</label>
+  <input type="text" [(ngModel)]="reviewData.title" placeholder="Summarize your stay" required><br>
+
+  <label>Review Comment:</label>
+  <textarea [(ngModel)]="reviewData.comment" placeholder="What did you like or dislike?" required></textarea><br>
+
+  <button (click)="submitReview()">Submit Review</button>
+</div>

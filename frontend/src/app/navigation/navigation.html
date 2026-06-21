@@ -1,0 +1,26 @@
+<header>
+    <h1>Hotel Booking System</h1>
+    <ul>
+        @if (isLoggedIn) {
+            <li><a routerLink="hotels">Hotels</a></li>
+            <li><a routerLink="hotel-search">Search Hotels</a></li>
+            <li><a routerLink="search-rooms">Search Rooms</a></li>
+            <li><a routerLink="my-bookings">My Bookings</a></li>
+            <li><a routerLink="my-payments">My Payments</a></li>
+            <li><a routerLink="loyalty">Loyalty Rewards</a></li>
+            
+            @if (isAdmin) {
+                <li><a routerLink="create-hotel">Create Hotel</a></li>
+                <li><a routerLink="hotel-amenities">Hotel Amenities</a></li>
+                <li><a routerLink="create-amenity">Add Amenities</a></li>
+                <li><a routerLink="all-bookings">All Bookings</a></li>
+                <li><a routerLink="dashboard">User Management</a></li>
+            }
+            
+            <li><a href="#" (click)="logout(); $event.preventDefault()" class="logout-link">Logout</a></li>
+        } @else {
+            <li><a routerLink="">Login</a></li>
+            <li><a routerLink="register">Register</a></li>
+        }
+    </ul>
+</header>

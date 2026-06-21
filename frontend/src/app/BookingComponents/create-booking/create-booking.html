@@ -1,0 +1,29 @@
+<h2>Create Reservation</h2>
+
+<div class="booking-container">
+  <p><strong>Hotel ID:</strong> {{bookingData.hotelId}}</p>
+  <p><strong>Room ID:</strong> {{bookingData.roomId}}</p>
+  
+  <label>Check-In Date:</label>
+  <input type="date" [(ngModel)]="bookingData.checkInDate" required><br>
+
+  <label>Check-Out Date:</label>
+  <input type="date" [(ngModel)]="bookingData.checkOutDate" required><br>
+
+  <label>Number of Guests:</label>
+  <input type="number" [(ngModel)]="bookingData.numberOfGuests" min="1" required><br>
+
+  <label>Guest Name:</label>
+  <input type="text" [(ngModel)]="bookingData.guestName" placeholder="Full Name" required><br>
+
+  <label>Guest Email:</label>
+  <input type="email" [(ngModel)]="bookingData.guestEmail" placeholder="Email Address"><br>
+
+  <label>Guest Phone:</label>
+  <input type="text" [(ngModel)]="bookingData.guestPhone" placeholder="Phone Number"><br>
+
+  <label>Special Requests:</label>
+  <textarea [(ngModel)]="bookingData.specialRequests" placeholder="Optional Requests"></textarea><br>
+
+  <button (click)="submitBooking()">Confirm Booking & Pay</button>
+</div>

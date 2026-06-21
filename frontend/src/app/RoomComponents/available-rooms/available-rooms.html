@@ -1,0 +1,83 @@
+<h1>Search Available Rooms</h1>
+
+
+
+<label>Check-In:</label>
+<input type="date" [(ngModel)]="checkIn"><br><br>
+
+<label>Check-Out:</label>
+<input type="date" [(ngModel)]="checkOut"><br><br>
+
+<button (click)="getAvailableRooms()">Search</button>
+
+<br><br>
+
+<!-- No Data Message -->
+@if (rooms.length === 0)
+{
+  <p style="color:red;">No available rooms found</p>
+}
+
+<table>
+  <tr>
+    <td>RoomId</td>
+    <td>Room Number</td>
+    <td>Room Type</td>
+    <td>Price</td>
+    <td>Max Occupancy</td>
+    <td>Available</td>
+    <td>Main Image</td>
+    <td>Images</td>
+    <td>Amenities</td>
+    <td>Actions</td>
+  </tr>
+
+  @for (r of rooms; track r.roomId)
+  {
+    <tr>
+      <td>{{r.roomId}}</td>
+      <td>{{r.roomNumber}}</td>
+      <td>{{r.roomType}}</td>
+      <td>{{r.pricePerNight}}</td>
+      <td>{{r.maxOccupancy}}</td>
+      <td>{{r.isAvailable}}</td>
+
+      <!-- Main Image -->
+      <td>
+        @if (r.imageUrl)
+        {
+          <img [src]="r.imageUrl" width="80">
+        }
+      </td>
+
+      <!-- Multiple Images -->
+      <td>
+        @if (r.imageUrls && r.imageUrls.length > 0)
+        {
+          @for (img of r.imageUrls; track img)
+          {
+            <img [src]="img" width="60"><br>
+          }
+        }
+      </td>
+
+      <!-- Amenities -->
+      <td>
+        @if (r.amenities && r.amenities.length > 0)
+        {
+          @for (a of r.amenities; track a.amenityId)
+          {
+            <span>{{a.name}}</span><br>
+          }
+        }
+      </td>
+      <td>
+        @if (r.isAvailable) {
+          <a [routerLink]="['/create-booking', hotelId, r.roomId]">Book Room</a>
+        } @else {
+          Unavailable
+        }
+      </td>
+    </tr>
+  }
+</table>

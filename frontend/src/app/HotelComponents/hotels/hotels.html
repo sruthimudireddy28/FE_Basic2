@@ -1,0 +1,64 @@
+
+<h1>Hotels</h1>
+<table>
+    <tr>
+        <td>HotelId</td>
+        <td>Name</td>
+        <td>Location</td>
+        <td>Address</td>
+        <td>City</td>
+        <td>State</td>
+        <td>Country</td>
+        <td>ZipCode</td>
+        <td>ManagerId</td>
+        <td>Description</td>
+        <td>ImageUrl</td>
+        <td>ImageUrls</td>
+        <td>Rating</td>
+        <td>TotalReviews</td>
+        <td>ContactNumber</td>
+        <td>Email</td>
+        <td>IsActive</td>
+        <td>Amenities</td>
+        <td>CreatedAt</td>
+        <td>Actions</td>
+    </tr>
+    @for(s of hotels;track s.hotelId)
+    {
+        <tr>
+            <td>{{s.hotelId}}</td>
+            <td>{{s.name}}</td>
+            <td>{{s.location}}</td>
+            <td>{{s.address}}</td>
+            <td>{{s.city}}</td>
+            <td>{{s.state}}</td>
+            <td>{{s.country}}</td>
+            <td>{{s.zipCode}}</td>
+            <td>{{s.managerId}}</td>
+            <td>{{s.description}}</td>
+            <td>{{s.imageUrl}}</td>
+            <td>{{s.imageUrls}}</td>
+            <td>{{s.rating}}</td>
+            <td>{{s.totalReviews}}</td>
+            <td>{{s.contactNumber}}</td>
+            <td>{{s.email}}</td>
+            <td>{{s.isActive}}</td>
+            <td>
+                @if(s.amenities)
+                {
+                    @for(a of s.amenities;track a.amenityId)
+                    {
+                        <span>{{a.name}}</span>
+                    }
+                }
+            </td>
+            <td>{{s.createdAt}}</td>
+            <td>
+                <a [routerLink]="['/rooms-by-hotel', s.hotelId]" style="margin-right: 5px;">Rooms</a> | 
+                <a [routerLink]="['/available-rooms', s.hotelId]" style="margin-right: 5px;">Available</a> | 
+                <a [routerLink]="['/update-hotel', s.hotelId]" style="margin-right: 5px;">Edit</a> | 
+                <a [routerLink]="['/delete-hotel', s.hotelId]" style="color: red;">Delete</a>
+            </td>
+        </tr>
+    }
+</table>

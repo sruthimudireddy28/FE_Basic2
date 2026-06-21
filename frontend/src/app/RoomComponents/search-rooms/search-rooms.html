@@ -1,0 +1,86 @@
+<h2>Search Rooms</h2>
+
+<!-- ✅ SEARCH FORM -->
+<div style="border:1px solid black; padding:15px; width:300px;">
+
+  <h3>Filters</h3>
+
+  <input type="number" [(ngModel)]="search.hotelId" placeholder="Hotel ID"><br><br>
+
+  <input [(ngModel)]="search.roomType" placeholder="Room Type (Deluxe, AC)"><br><br>
+
+  <input type="number" [(ngModel)]="search.minPrice" placeholder="Min Price"><br><br>
+
+  <input type="number" [(ngModel)]="search.maxPrice" placeholder="Max Price"><br><br>
+
+  <input type="number" [(ngModel)]="search.minOccupancy" placeholder="Min Occupancy"><br><br>
+
+  <label>Check-In:</label><br>
+  <input type="date" [(ngModel)]="search.checkInDate"><br><br>
+
+  <label>Check-Out:</label><br>
+  <input type="date" [(ngModel)]="search.checkOutDate"><br><br>
+
+  <button (click)="searchRooms()">Search</button>
+  <button (click)="reset()">Reset</button>
+</div>
+
+<br>
+
+<!-- ✅ Show message only AFTER search -->
+@if (isSearched && rooms.length === 0)
+{
+  <p style="color:red;">No rooms found</p>
+}
+
+<!-- ✅ RESULTS -->
+@if (rooms.length > 0)
+{
+  <h3>Search Results</h3>
+
+  <table>
+    <tr>
+      <td>RoomId</td>
+      <td>HotelId</td>
+      <td>Room No</td>
+      <td>Type</td>
+      <td>Price</td>
+      <td>Occupancy</td>
+      <td>Available</td>
+      <td>Image</td>
+      <td>Amenities</td>
+    </tr>
+
+    @for (r of rooms; track r.roomId)
+    {
+      <tr>
+        <td>{{r.roomId}}</td>
+        <td>{{r.hotelId}}</td>
+        <td>{{r.roomNumber}}</td>
+        <td>{{r.roomType}}</td>
+        <td>{{r.pricePerNight}}</td>
+        <td>{{r.maxOccupancy}}</td>
+        <td>{{r.isAvailable}}</td>
+
+        <!-- ✅ Image -->
+        <td>
+          @if (r.imageUrl)
+          {
+            <img [src]="r.imageUrl" width="80">
+          }
+        </td>
+
+        <!-- ✅ Amenities -->
+        <td>
+          @if (r.amenities && r.amenities.length > 0)
+          {
+            @for (a of r.amenities; track a.amenityId)
+            {
+              <span>{{a.name}}</span><br>
+            }
+          }
+        </td>
+      </tr>
+    }
+  </table>
+}

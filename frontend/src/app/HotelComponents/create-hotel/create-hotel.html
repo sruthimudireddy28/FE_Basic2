@@ -1,0 +1,16 @@
+<h2>Create Hotel</h2>
+
+  <input type="text" [(ngModel)]="p.name" name="name" placeholder="Name" required>
+  <input type="text" [(ngModel)]="p.location" name="location" placeholder="Location" required>
+  <input type="text" [(ngModel)]="p.address" name="address" placeholder="Address">
+  <input type="text" [(ngModel)]="p.city" name="city" placeholder="City">
+  <input type="text" [(ngModel)]="p.state" name="state" placeholder="State">
+  <input type="text" [(ngModel)]="p.country" name="country" placeholder="Country">
+  <input type="text" [(ngModel)]="p.zipCode" name="zipCode" placeholder="Zip Code">
+  <textarea [(ngModel)]="p.description" name="description" placeholder="Description"></textarea>
+  <input type="text" [(ngModel)]="p.imageUrl" name="imageUrl" placeholder="Main Image URL">
+  <input type="text" [(ngModel)]="p.contactNumber" name="contactNumber" placeholder="Contact Number">
+  <input type="email" [(ngModel)]="p.email" name="email" placeholder="Email">
+  <!-- Amenity IDs (comma separated for now) -->
+  <input type="text" [(ngModel)]="amenityInput" name="amenities" placeholder="Amenity IDs (1,2,3)">
+  <button type="submit" (click)="create()">Create</button>

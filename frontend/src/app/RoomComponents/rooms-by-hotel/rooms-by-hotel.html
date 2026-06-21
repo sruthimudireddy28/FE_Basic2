@@ -1,0 +1,79 @@
+<h1>Get Rooms By Hotel</h1>
+
+
+
+<table>
+  <tr>
+    <td>RoomId</td>
+    <td>Room Number</td>
+    <td>Room Type</td>
+    <td>Description</td>
+    <td>Price</td>
+    <td>Max Occupancy</td>
+    <td>Bed Count</td>
+    <td>Bed Type</td>
+    <td>Floor</td>
+    <td>Room Size</td>
+    <td>Available</td>
+    <td>Main Image</td>
+    <td>Images</td>
+    <td>Amenities</td>
+    <td>Created At</td>
+    <td>Actions</td>
+  </tr>
+
+  @for (r of rooms; track r.roomId)
+  {
+    <tr>
+      <td>{{r.roomId}}</td>
+      <td>{{r.roomNumber}}</td>
+      <td>{{r.roomType}}</td>
+      <td>{{r.description}}</td>
+      <td>{{r.pricePerNight}}</td>
+      <td>{{r.maxOccupancy}}</td>
+      <td>{{r.bedCount}}</td>
+      <td>{{r.bedType}}</td>
+      <td>{{r.floorNumber}}</td>
+      <td>{{r.roomSize}}</td>
+      <td>{{r.isAvailable}}</td>
+
+      <!-- ✅ Main Image -->
+      <td>
+        @if (r.imageUrl) {
+          <img [src]="r.imageUrl" width="80">
+        }
+      </td>
+
+      <!-- ✅ Multiple Images -->
+      <td>
+        @if (r.imageUrls && r.imageUrls.length > 0)
+        {
+          @for (img of r.imageUrls; track img)
+          {
+            <img [src]="img" width="60"><br>
+          }
+        }
+      </td>
+
+      <!-- ✅ Amenities -->
+      <td>
+        @if (r.amenities && r.amenities.length > 0)
+        {
+          @for (a of r.amenities; track a.amenityId)
+          {
+            <span>{{a.name}}</span><br>
+          }
+        }
+      </td>
+
+      <td>{{r.createdAt}}</td>
+      <td>
+        @if (r.isAvailable) {
+          <a [routerLink]="['/create-booking', hotelId, r.roomId]">Book Room</a>
+        } @else {
+          Unavailable
+        }
+      </td>
+    </tr>
+  }
+</table>

@@ -1,0 +1,46 @@
+<h1>Manage All Reservations</h1>
+
+@if (bookings && bookings.length > 0) {
+  <table>
+    <thead>
+      <tr>
+        <th>Booking ID</th>
+        <th>User ID</th>
+        <th>Hotel ID</th>
+        <th>Room ID</th>
+        <th>Check-In</th>
+        <th>Check-Out</th>
+        <th>Amount</th>
+        <th>Status</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for (b of bookings; track b.bookingId) {
+        <tr>
+          <td>{{b.bookingId}}</td>
+          <td>{{b.userId}}</td>
+          <td>{{b.hotelId}}</td>
+          <td>{{b.roomId}}</td>
+          <td>{{b.checkInDate | date:'yyyy-MM-dd'}}</td>
+          <td>{{b.checkOutDate | date:'yyyy-MM-dd'}}</td>
+          <td>₹{{b.totalAmount}}</td>
+          <td>
+            <span [class]="'badge badge-' + b.status.toLowerCase()">{{b.status}}</span>
+          </td>
+          <td>
+            @if (b.status !== 'Cancelled' && b.status !== 'Completed' && b.status !== 'Refunded') {
+              <button (click)="updateStatus(b.bookingId, 'Confirmed')" class="action-btn confirm-btn">Confirm</button> |
+              <button (click)="updateStatus(b.bookingId, 'Completed')" class="action-btn complete-btn">Complete</button> |
+              <button (click)="updateStatus(b.bookingId, 'Cancelled')" class="action-btn cancel-btn">Cancel</button>
+            } @else {
+              --
+            }
+          </td>
+        </tr>
+      }
+    </tbody>
+  </table>
+} @else {
+  <p>No reservations found or unauthorized access.</p>
+}

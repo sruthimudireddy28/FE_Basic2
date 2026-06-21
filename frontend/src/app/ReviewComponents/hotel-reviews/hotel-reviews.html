@@ -1,0 +1,25 @@
+<h1>Guest Reviews</h1>
+
+@if (reviews && reviews.length > 0) {
+  <div class="reviews-list">
+    @for (r of reviews; track r.reviewId) {
+      <div class="review-card">
+        <h3>{{r.title}}</h3>
+        <p class="meta">By <strong>{{r.userName}}</strong> | Rating: <strong>{{r.rating}}/5 Stars</strong> | {{r.createdAt | date:'yyyy-MM-dd'}}</p>
+        <p class="comment">"{{r.comment}}"</p>
+        
+        @if (r.managerResponse) {
+          <div class="manager-reply">
+            <strong>Manager Response:</strong> "{{r.managerResponse}}"
+          </div>
+        }
+        
+        <div class="actions">
+          <button (click)="helpful(r.reviewId)" class="helpful-btn">👍 Helpful ({{r.helpfulCount}})</button>
+        </div>
+      </div>
+    }
+  </div>
+} @else {
+  <p>No reviews found for this hotel yet. Be the first to write a stay review!</p>
+}

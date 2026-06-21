@@ -1,0 +1,62 @@
+<h1>Search Hotels</h1>
+
+<!-- Search Inputs -->
+<input [(ngModel)]="search.city" placeholder="City"><br>
+<input [(ngModel)]="search.country" placeholder="Country"><br>
+<input type="number" [(ngModel)]="search.minRating" placeholder="Min Rating"><br>
+
+<button (click)="searchHotels()">Search</button>
+
+<br><br>
+
+<table>
+  <tr>
+    <td>HotelId</td>
+    <td>Name</td>
+    <td>Location</td>
+    <td>Address</td>
+    <td>City</td>
+    <td>State</td>
+    <td>Country</td>
+    <td>ZipCode</td>
+    <td>ManagerId</td>
+    <td>Description</td>
+    <td>Rating</td>
+    <td>ContactNumber</td>
+    <td>Email</td>
+    <td>Amenities</td>
+    <td>CreatedAt</td>
+  </tr>
+
+  @for (s of hotels; track s.hotelId)
+  {
+    <tr>
+      <td>{{s.hotelId}}</td>
+      <td>{{s.name}}</td>
+      <td>{{s.location}}</td>
+      <td>{{s.address}}</td>
+      <td>{{s.city}}</td>
+      <td>{{s.state}}</td>
+      <td>{{s.country}}</td>
+      <td>{{s.zipCode}}</td>
+      <td>{{s.managerId}}</td>
+      <td>{{s.description}}</td>
+      <td>{{s.rating}}</td>
+      <td>{{s.contactNumber}}</td>
+      <td>{{s.email}}</td>
+
+      <!-- ✅ Nested @for like your style -->
+      <td>
+        @if (s.amenities)
+        {
+          @for (a of s.amenities; track a.amenityId)
+          {
+            <span>{{a.name}}</span><br>
+          }
+        }
+      </td>
+
+      <td>{{s.createdAt}}</td>
+    </tr>
+  }
+</table>
