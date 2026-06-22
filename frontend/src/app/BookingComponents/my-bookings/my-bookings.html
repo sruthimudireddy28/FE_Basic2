@@ -5,8 +5,8 @@
     <thead>
       <tr>
         <th>Booking ID</th>
-        <th>Hotel ID</th>
-        <th>Room ID</th>
+        <th>Hotel Name</th>
+        <th>Room Type</th>
         <th>Check-In</th>
         <th>Check-Out</th>
         <th>Guests</th>
@@ -19,8 +19,8 @@
       @for (b of bookings; track b.bookingId) {
         <tr>
           <td>{{b.bookingId}}</td>
-          <td>{{b.hotelId}}</td>
-          <td>{{b.roomId}}</td>
+          <td>{{b.hotelName}}</td>
+          <td>{{b.roomType}}</td>
           <td>{{b.checkInDate | date:'yyyy-MM-dd'}}</td>
           <td>{{b.checkOutDate | date:'yyyy-MM-dd'}}</td>
           <td>{{b.numberOfGuests}}</td>
@@ -38,7 +38,7 @@
             }
             @if (b.status === 'Confirmed' || b.status === 'Completed') {
               @if (b.status === 'Confirmed') { | }
-              <a [routerLink]="['/create-review', b.hotelId]" class="action-link review-link">Review Stay</a>
+              <a [routerLink]="['/create-review', b.hotelId, b.bookingId]" class="action-link review-link">Review Stay</a>
             }
           </td>
         </tr>

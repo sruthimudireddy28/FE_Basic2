@@ -1,4 +1,14 @@
-<h1>Guest Reviews</h1>
+@if (hotel) {
+  <div class="hotel-summary">
+    <h2>Reviews for {{hotel.name}}</h2>
+    @if (hotel.imageUrl) {
+      <img [src]="hotel.imageUrl" alt="{{hotel.name}}" class="hotel-summary-image" style="max-height: 200px; border-radius: 4px; object-fit: cover; margin-bottom: 10px;"><br>
+    }
+    <p>Average Rating: <strong>{{hotel.rating | number:'1.1-2'}}/5 Stars</strong> ({{hotel.totalReviews}} reviews)</p>
+  </div>
+} @else {
+  <h1>Guest Reviews</h1>
+}
 
 @if (reviews && reviews.length > 0) {
   <div class="reviews-list">

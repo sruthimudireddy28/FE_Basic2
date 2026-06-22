@@ -3,7 +3,6 @@ import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { Hotel } from '../../models/hotel';
 import { RouterLink } from '@angular/router';
-import { FormsModule } from '@angular/forms';
 
 export interface ApiResponse {
   success: boolean;
@@ -13,14 +12,12 @@ export interface ApiResponse {
 
 @Component({
   selector: 'app-hotels',
-  imports: [CommonModule, RouterLink, FormsModule],
+  imports: [CommonModule, RouterLink],
   templateUrl: './hotels.html',
   styleUrl: './hotels.css',
 })
 export class Hotels {
   hotels:Array<Hotel>=[];
-  checkIn: string = '';
-  checkOut: string = '';
   
   get isAdmin(): boolean {
     return localStorage.getItem('userRole') === 'Admin';

@@ -142,6 +142,13 @@ namespace BookingService.Controllers
             return Ok(result);
         }
 
+        [HttpGet("hotel/{hotelId}/booked-rooms")]
+        public async Task<IActionResult> GetBookedRooms(int hotelId, [FromQuery] DateTime checkIn, [FromQuery] DateTime checkOut)
+        {
+            var result = await _bookingService.GetBookedRoomIdsAsync(hotelId, checkIn, checkOut);
+            return Ok(result);
+        }
+
         private int GetCurrentUserId()
         {
             var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;

@@ -21,19 +21,32 @@ namespace ReviewService.Services
 
         public async Task<ApiResponse<ReviewResponseDto>> CreateReviewAsync(CreateReviewDto request, int userId, string userName)
         {
-            // Check if user already reviewed this hotel
-            var existingReview = await _context.Reviews
-                .FirstOrDefaultAsync(r => r.UserId == userId && r.HotelId == request.HotelId);
-
-            if (existingReview != null)
-            {
-                return ApiResponse<ReviewResponseDto>.FailResponse("You have already reviewed this hotel");
-            }
-
             // Validate rating
             if (request.Rating < 1 || request.Rating > 5)
             {
                 return ApiResponse<ReviewResponseDto>.FailResponse("Rating must be between 1 and 5");
+            }
+
+            // Check if user already reviewed this booking
+            if (request.BookingId.HasValue && request.BookingId.Value > 0)
+            {
+                var existingBookingReview = await _context.Reviews
+                    .FirstOrDefaultAsync(r => r.BookingId == request.BookingId.Value);
+
+                if (existingBookingReview != null)
+                {
+                    return ApiResponse<ReviewResponseDto>.FailResponse("You have already reviewed this reservation");
+                }
+            }
+            else
+            {
+                var existingReview = await _context.Reviews
+                    .FirstOrDefaultAsync(r => r.UserId == userId && r.HotelId == request.HotelId && !r.BookingId.HasValue);
+
+                if (existingReview != null)
+                {
+                    return ApiResponse<ReviewResponseDto>.FailResponse("You have already reviewed this hotel");
+                }
             }
 
             var review = new Review
@@ -46,15 +59,18 @@ namespace ReviewService.Services
                 Title = request.Title,
                 UserName = userName,
                 IsVerifiedStay = request.BookingId.HasValue,
-                IsApproved = false,
+                IsApproved = true, // Auto-approved to appear immediately
                 CreatedAt = DateTime.UtcNow
             };
 
             _context.Reviews.Add(review);
             await _context.SaveChangesAsync();
 
+            // Update hotel rating immediately
+            await UpdateHotelRatingAsync(review.HotelId);
+
             var response = MapToReviewResponse(review);
-            return ApiResponse<ReviewResponseDto>.SuccessResponse(response, "Review submitted successfully. Awaiting approval.");
+            return ApiResponse<ReviewResponseDto>.SuccessResponse(response, "Review submitted successfully.");
         }
 
         public async Task<ApiResponse<ReviewResponseDto>> GetReviewByIdAsync(int reviewId)

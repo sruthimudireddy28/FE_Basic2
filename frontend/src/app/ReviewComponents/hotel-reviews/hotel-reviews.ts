@@ -13,6 +13,7 @@ import { CommonModule } from '@angular/common';
 export class HotelReviews implements OnInit {
   hotelId = 0;
   reviews: any[] = [];
+  hotel: any = null;
 
   constructor(private http: HttpClient, private route: ActivatedRoute) {}
 
@@ -20,8 +21,18 @@ export class HotelReviews implements OnInit {
     const idParam = this.route.snapshot.paramMap.get('hotelId');
     if (idParam) {
       this.hotelId = Number(idParam);
+      this.loadHotelDetails();
       this.loadReviews();
     }
+  }
+
+  loadHotelDetails() {
+    this.http.get<any>(`http://localhost:5000/api/hotels/${this.hotelId}`).subscribe({
+      next: (res) => {
+        this.hotel = res.data;
+      },
+      error: (err) => console.log('Failed to load hotel details', err)
+    });
   }
 
   loadReviews() {

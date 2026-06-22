@@ -76,6 +76,18 @@ namespace LoyaltyService.Services
         // for calculate in loyatly points based on amount this method is invoked 
         public async Task<ApiResponse<LoyaltyAccountResponseDto>> EarnPointsAsync(int userId, EarnPointsDto request)
         {
+            // Check for duplicate point awards for the same reservation
+            if (request.BookingId > 0)
+            {
+                var existingTransaction = await _context.PointTransactions
+                    .FirstOrDefaultAsync(t => t.BookingId == request.BookingId && t.TransactionType == "Earned");
+
+                if (existingTransaction != null)
+                {
+                    return ApiResponse<LoyaltyAccountResponseDto>.FailResponse($"Points already earned for booking #{request.BookingId}");
+                }
+            }
+
             var account = await _context.LoyaltyAccounts
                 .FirstOrDefaultAsync(l => l.UserId == userId && l.IsActive);
 

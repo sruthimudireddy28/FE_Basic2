@@ -15,6 +15,7 @@ namespace BookingService.Services
         Task<ApiResponse> UpdateBookingStatusAsync(int bookingId, string status);
         Task<ApiResponse> UpdateBookingPaymentAsync(int bookingId, int paymentId);
         Task<ApiResponse<bool>> CheckRoomAvailabilityAsync(CheckAvailabilityDto request);
+        Task<ApiResponse<List<int>>> GetBookedRoomIdsAsync(int hotelId, DateTime checkIn, DateTime checkOut);
     }
 
     public class ApiResponse<T>

@@ -282,6 +282,12 @@ namespace BookingService.Services
 
             await _context.SaveChangesAsync();
 
+            // Earn loyalty points if status is Confirmed or Completed
+            if (status == "Confirmed" || status == "Completed")
+            {
+                await EarnLoyaltyPointsAsync(booking.UserId, booking.BookingId, booking.TotalAmount);
+            }
+
             return ApiResponse.SuccessResponse($"Booking status updated to {status}");
         }
 
@@ -300,6 +306,9 @@ namespace BookingService.Services
 
             await _context.SaveChangesAsync();
 
+            // Earn loyalty points when confirmed via payment
+            await EarnLoyaltyPointsAsync(booking.UserId, booking.BookingId, booking.TotalAmount);
+
             return ApiResponse.SuccessResponse("Booking payment updated successfully");
         }
 
@@ -307,6 +316,21 @@ namespace BookingService.Services
         {
             var isAvailable = await IsRoomAvailableAsync(request.RoomId, request.CheckInDate, request.CheckOutDate);
             return ApiResponse<bool>.SuccessResponse(isAvailable);
+        }
+
+        public async Task<ApiResponse<List<int>>> GetBookedRoomIdsAsync(int hotelId, DateTime checkIn, DateTime checkOut)
+        {
+            var bookedRoomIds = await _context.Bookings
+                .Where(b => b.HotelId == hotelId &&
+                            b.Status != "Cancelled" &&
+                            ((checkIn >= b.CheckInDate && checkIn < b.CheckOutDate) ||
+                             (checkOut > b.CheckInDate && checkOut <= b.CheckOutDate) ||
+                             (checkIn <= b.CheckInDate && checkOut >= b.CheckOutDate)))
+                .Select(b => b.RoomId)
+                .Distinct()
+                .ToListAsync();
+
+            return ApiResponse<List<int>>.SuccessResponse(bookedRoomIds);
         }
 
         private async Task<bool> IsRoomAvailableAsync(int roomId, DateTime checkIn, DateTime checkOut)
@@ -384,6 +408,36 @@ namespace BookingService.Services
                 CreatedAt = booking.CreatedAt,
                 TotalNights = (booking.CheckOutDate - booking.CheckInDate).Days
             };
+        }
+
+        private async Task EarnLoyaltyPointsAsync(int userId, int bookingId, decimal bookingAmount)
+        {
+            try
+            {
+                var loyaltyServiceUrl = _configuration["ServiceUrls:LoyaltyService"];
+                if (string.IsNullOrEmpty(loyaltyServiceUrl))
+                {
+                    loyaltyServiceUrl = "http://localhost:5007"; // fallback
+                }
+
+                var payload = new
+                {
+                    BookingId = bookingId,
+                    BookingAmount = bookingAmount
+                };
+
+                var content = new StringContent(
+                    JsonSerializer.Serialize(payload),
+                    System.Text.Encoding.UTF8,
+                    "application/json");
+
+                await _httpClient.PostAsync(
+                    $"{loyaltyServiceUrl}/api/loyalty/{userId}/earn", content);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error earning loyalty points: {ex.Message}");
+            }
         }
     }
 

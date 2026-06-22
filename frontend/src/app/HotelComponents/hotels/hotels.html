@@ -1,16 +1,5 @@
 <div class="hotels-container">
   <h1>Hotels</h1>
-  
-  <div class="date-selection">
-    <div class="date-field">
-      <label>Check-In Date:</label>
-      <input type="date" [(ngModel)]="checkIn">
-    </div>
-    <div class="date-field">
-      <label>Check-Out Date:</label>
-      <input type="date" [(ngModel)]="checkOut">
-    </div>
-  </div>
 
   <div class="cards-grid">
     @for(s of hotels; track s.hotelId) {
@@ -24,11 +13,19 @@
           <h3>{{s.name}}</h3>
           <p class="location">{{s.city}}, {{s.state}}, {{s.country}}</p>
           <p class="description">{{s.description}}</p>
+          @if (s.amenities && s.amenities.length > 0) {
+            <p class="amenities">
+              <strong>Amenities:</strong> 
+              @for (am of s.amenities; track am.amenityId; let isLast = $last) {
+                <span>{{am.name}}{{!isLast ? ', ' : ''}}</span>
+              }
+            </p>
+          }
           <p class="rating">Rating: {{s.rating}}/5 ({{s.totalReviews}} reviews)</p>
           
           <div class="card-actions">
+            <a [routerLink]="['/available-rooms', s.hotelId]" class="card-btn">View Available Rooms</a>
             <a [routerLink]="['/rooms-by-hotel', s.hotelId]" class="card-btn">View All Rooms</a>
-            <a [routerLink]="['/available-rooms', s.hotelId]" [queryParams]="{ checkIn: checkIn, checkOut: checkOut }" class="card-btn">View Available Rooms</a>
             <a [routerLink]="['/hotel-reviews', s.hotelId]" class="card-btn">Reviews</a>
             @if (isAdmin) {
               <a [routerLink]="['/update-hotel', s.hotelId]" class="card-btn">Edit</a>

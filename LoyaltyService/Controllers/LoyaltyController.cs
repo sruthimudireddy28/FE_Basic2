@@ -48,11 +48,11 @@ namespace LoyaltyService.Controllers
         }
 
         [HttpPost("earn")]
-        [Authorize]
-        public async Task<IActionResult> EarnPoints([FromBody] EarnPointsDto request)
+        [HttpPost("{userId}/earn")]
+        public async Task<IActionResult> EarnPoints(int? userId, [FromBody] EarnPointsDto request)
         {
-            var userId = GetCurrentUserId();
-            var result = await _loyaltyService.EarnPointsAsync(userId, request);
+            var resolvedUserId = userId ?? GetCurrentUserId();
+            var result = await _loyaltyService.EarnPointsAsync(resolvedUserId, request);
 
             if (!result.Success)
                 return BadRequest(result);
@@ -61,11 +61,11 @@ namespace LoyaltyService.Controllers
         }
 
         [HttpPost("redeem")]
-        [Authorize]
-        public async Task<IActionResult> RedeemPoints([FromBody] RedeemPointsDto request)
+        [HttpPost("{userId}/redeem")]
+        public async Task<IActionResult> RedeemPoints(int? userId, [FromBody] RedeemPointsDto request)
         {
-            var userId = GetCurrentUserId();
-            var result = await _loyaltyService.RedeemPointsAsync(userId, request);
+            var resolvedUserId = userId ?? GetCurrentUserId();
+            var result = await _loyaltyService.RedeemPointsAsync(resolvedUserId, request);
 
             if (!result.Success)
                 return BadRequest(result);

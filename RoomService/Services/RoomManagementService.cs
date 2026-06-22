@@ -2,6 +2,8 @@ using Microsoft.EntityFrameworkCore;
 using RoomService.Data;
 using RoomService.DTOs;
 using RoomService.Models;
+using System.Text.Json;
+using System.Net.Http;
 
 namespace RoomService.Services
 {
@@ -151,15 +153,45 @@ namespace RoomService.Services
 
         public async Task<ApiResponse<List<RoomResponseDto>>> GetAvailableRoomsAsync(int hotelId, DateTime checkIn, DateTime checkOut)
         {
-            // Get all rooms for the hotel that are marked as available
+            // Get all active rooms for the hotel
             var rooms = await _context.Rooms
                 .Where(r => r.HotelId == hotelId && r.IsActive && r.IsAvailable)
                 .Include(r => r.RoomAmenities)
                     .ThenInclude(ra => ra.Amenity)
                 .ToListAsync();
 
-            var response = rooms.Select(MapToRoomResponse).ToList();
-            return ApiResponse<List<RoomResponseDto>>.SuccessResponse(response);
+            var bookedRoomIds = new List<int>();
+            try
+            {
+                var bookingServiceUrl = _configuration["ServiceUrls:BookingService"];
+                if (string.IsNullOrEmpty(bookingServiceUrl))
+                {
+                    bookingServiceUrl = "http://localhost:5004"; // fallback
+                }
+
+                var response = await _httpClient.GetAsync($"{bookingServiceUrl}/api/bookings/hotel/{hotelId}/booked-rooms?checkIn={checkIn:yyyy-MM-dd}&checkOut={checkOut:yyyy-MM-dd}");
+                if (response.IsSuccessStatusCode)
+                {
+                    var content = await response.Content.ReadAsStringAsync();
+                    var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
+                    var result = JsonSerializer.Deserialize<ApiResponse<List<int>>>(content, options);
+                    if (result != null && result.Success && result.Data != null)
+                    {
+                        bookedRoomIds = result.Data;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error calling BookingService: {ex.Message}");
+            }
+
+            var availableRooms = rooms
+                .Where(r => !bookedRoomIds.Contains(r.RoomId))
+                .ToList();
+
+            var responseDto = availableRooms.Select(MapToRoomResponse).ToList();
+            return ApiResponse<List<RoomResponseDto>>.SuccessResponse(responseDto);
         }
 
         public async Task<ApiResponse<RoomResponseDto>> UpdateRoomAsync(int roomId, UpdateRoomDto request, int userId, string role)

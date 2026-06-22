@@ -6,8 +6,8 @@
       <tr>
         <th>Booking ID</th>
         <th>User ID</th>
-        <th>Hotel ID</th>
-        <th>Room ID</th>
+        <th>Hotel Name</th>
+        <th>Room Type</th>
         <th>Check-In</th>
         <th>Check-Out</th>
         <th>Amount</th>
@@ -20,8 +20,8 @@
         <tr>
           <td>{{b.bookingId}}</td>
           <td>{{b.userId}}</td>
-          <td>{{b.hotelId}}</td>
-          <td>{{b.roomId}}</td>
+          <td>{{b.hotelName}}</td>
+          <td>{{b.roomType}}</td>
           <td>{{b.checkInDate | date:'yyyy-MM-dd'}}</td>
           <td>{{b.checkOutDate | date:'yyyy-MM-dd'}}</td>
           <td>₹{{b.totalAmount}}</td>

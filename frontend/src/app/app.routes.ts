@@ -50,7 +50,7 @@ export const routes: Routes = [
     {path:'all-bookings',component:AllBookings},
     {path:'process-payment/:bookingId/:amount',component:ProcessPayment},
     {path:'my-payments',component:MyPayments},
-    {path:'create-review/:hotelId',component:CreateReview},
+    {path:'create-review/:hotelId/:bookingId',component:CreateReview},
     {path:'hotel-reviews/:hotelId',component:HotelReviews},
     {path:'loyalty',component:LoyaltyStatus}
 ];

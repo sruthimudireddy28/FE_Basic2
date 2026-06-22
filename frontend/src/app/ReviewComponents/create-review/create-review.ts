@@ -14,6 +14,7 @@ import { CommonModule } from '@angular/common';
 export class CreateReview implements OnInit {
   reviewData = {
     hotelId: 0,
+    bookingId: 0,
     rating: 5,
     comment: '',
     title: ''
@@ -24,6 +25,8 @@ export class CreateReview implements OnInit {
   ngOnInit() {
     const hotelIdParam = this.route.snapshot.paramMap.get('hotelId');
     if (hotelIdParam) this.reviewData.hotelId = Number(hotelIdParam);
+    const bookingIdParam = this.route.snapshot.paramMap.get('bookingId');
+    if (bookingIdParam) this.reviewData.bookingId = Number(bookingIdParam);
   }
 
   submitReview() {
