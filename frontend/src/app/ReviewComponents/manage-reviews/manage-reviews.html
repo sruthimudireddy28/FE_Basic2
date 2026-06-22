@@ -1,0 +1,74 @@
+<h1>Manage Reviews</h1>
+
+<div class="filter-panel" style="display: flex; gap: 15px; margin-bottom: 20px; align-items: flex-end; flex-wrap: wrap;">
+  <div class="filter-group" style="display: flex; flex-direction: column; gap: 5px;">
+    <label style="font-size: 11px; font-weight: bold; color: #333;">Hotel ID</label>
+    <input type="number" [(ngModel)]="filterHotelId" placeholder="Hotel ID" style="padding: 5px; font-size: 12px; border: 1px solid #ccc; width: 100px; margin: 0;">
+  </div>
+  <div class="filter-group" style="display: flex; flex-direction: column; gap: 5px;">
+    <label style="font-size: 11px; font-weight: bold; color: #333;">User ID</label>
+    <input type="number" [(ngModel)]="filterUserId" placeholder="User ID" style="padding: 5px; font-size: 12px; border: 1px solid #ccc; width: 100px; margin: 0;">
+  </div>
+  <div class="filter-group" style="display: flex; flex-direction: column; gap: 5px;">
+    <label style="font-size: 11px; font-weight: bold; color: #333;">Approval Status</label>
+    <select [(ngModel)]="filterIsApproved" style="padding: 5px; font-size: 12px; border: 1px solid #ccc; width: 120px; height: 30px;">
+      <option value="all">All</option>
+      <option value="true">Approved</option>
+      <option value="false">Pending Approval</option>
+    </select>
+  </div>
+  <button (click)="searchReviews()" class="action-btn confirm-btn" style="height: 30px; padding: 0 15px; border: 1px solid #059669; background-color: #d1fae5; color: #059669; border-radius: 4px; font-weight: bold; cursor: pointer;">Search</button>
+  <button (click)="resetFilters()" class="action-btn cancel-btn" style="height: 30px; padding: 0 15px; border: 1px solid #dc2626; background-color: #fee2e2; color: #dc2626; border-radius: 4px; font-weight: bold; cursor: pointer;">Reset</button>
+</div>
+
+@if (reviews && reviews.length > 0) {
+  <table>
+    <thead>
+      <tr>
+        <th>Review ID</th>
+        <th>Hotel ID</th>
+        <th>User ID</th>
+        <th>Rating</th>
+        <th>Comment</th>
+        <th>Status</th>
+        <th>Manager Response</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for (r of reviews; track r.reviewId) {
+        <tr>
+          <td>{{r.reviewId}}</td>
+          <td>{{r.hotelId}}</td>
+          <td>{{r.userId}}</td>
+          <td>{{r.rating}}/5</td>
+          <td>
+            <strong>{{r.title}}</strong><br>
+            {{r.comment}}
+          </td>
+          <td>
+            <span [class]="r.isApproved ? 'badge badge-confirmed' : 'badge badge-pendingpayment'">
+              {{ r.isApproved ? 'Approved' : 'Pending' }}
+            </span>
+          </td>
+          <td>
+            <div style="display: flex; flex-direction: column; gap: 5px; width: 250px;">
+              <textarea [(ngModel)]="responses[r.reviewId]" placeholder="Enter response..." style="padding: 5px; font-size: 11px; margin: 0; width: 100%; height: 50px; resize: none;"></textarea>
+              <button (click)="submitResponse(r.reviewId)" class="action-btn complete-btn" style="align-self: flex-start; font-size: 11px;">Submit Response</button>
+            </div>
+          </td>
+          <td>
+            <div style="display: flex; gap: 5px; align-items: center;">
+              @if (!r.isApproved) {
+                <button (click)="approveReview(r.reviewId)" class="action-btn confirm-btn">Approve</button> |
+              }
+              <button (click)="deleteReview(r.reviewId)" class="action-btn cancel-btn">Delete</button>
+            </div>
+          </td>
+        </tr>
+      }
+    </tbody>
+  </table>
+} @else {
+  <p>No reviews found or unauthorized access.</p>
+}

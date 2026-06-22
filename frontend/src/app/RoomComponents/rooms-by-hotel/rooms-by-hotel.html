@@ -12,6 +12,12 @@
     <h1>Rooms for Hotel ID: {{hotelId}}</h1>
   }
   
+  @if (isAdmin) {
+    <div style="margin-bottom: 20px;">
+      <a [routerLink]="['/create-room', hotelId]" class="card-btn" style="background-color: #2ecc71; color: white; border-color: #27ae60;">Add Room</a>
+    </div>
+  }
+  
   @if (rooms && rooms.length > 0) {
     <div class="rooms-grid">
       @for (r of rooms; track r.roomId) {
@@ -45,6 +51,13 @@
                 <a [routerLink]="['/create-booking', hotelId, r.roomId]" class="card-btn book-btn">Book Room</a>
               } @else {
                 <span class="card-btn unavailable-btn">Not Available</span>
+              }
+              @if (isAdmin) {
+                <a [routerLink]="['/update-room', r.roomId]" class="card-btn">Edit</a>
+                <button (click)="deleteRoom(r.roomId)" class="card-btn delete-btn">Delete</button>
+                <button (click)="toggleAvailability(r.roomId, r.isAvailable)" class="card-btn">
+                  {{ r.isAvailable ? 'Disable' : 'Enable' }}
+                </button>
               }
             </div>
           </div>

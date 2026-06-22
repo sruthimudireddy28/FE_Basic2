@@ -1,0 +1,18 @@
+<h2>Update Room (Room ID: {{roomId}})</h2>
+
+<div class="form-container">
+  <input type="text" [(ngModel)]="roomNumber" name="roomNumber" placeholder="Room Number" required>
+  <input type="text" [(ngModel)]="roomType" name="roomType" placeholder="Room Type" required>
+  <textarea [(ngModel)]="description" name="description" placeholder="Description"></textarea>
+  <input type="number" [(ngModel)]="pricePerNight" name="pricePerNight" placeholder="Price Per Night" required>
+  <input type="number" [(ngModel)]="maxOccupancy" name="maxOccupancy" placeholder="Max Occupancy">
+  <input type="number" [(ngModel)]="bedCount" name="bedCount" placeholder="Bed Count">
+  <input type="text" [(ngModel)]="bedType" name="bedType" placeholder="Bed Type">
+  <input type="number" [(ngModel)]="floorNumber" name="floorNumber" placeholder="Floor Number">
+  <input type="number" [(ngModel)]="roomSize" name="roomSize" placeholder="Room Size (sqft)">
+  <input type="text" [(ngModel)]="imageUrl" name="imageUrl" placeholder="Room Image URL">
+  <!-- Amenity IDs (comma separated for now) -->
+  <input type="text" [(ngModel)]="amenityInput" name="amenities" placeholder="Amenity IDs (e.g. 1, 2, 3)">
+  
+  <button type="submit" (click)="update()">Update</button>
+</div>

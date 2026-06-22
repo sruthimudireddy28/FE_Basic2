@@ -32,6 +32,7 @@
               <td>{{ user.contactNumber || '--' }}</td>
               <td>
                 <button class="btn btn-sm btn-edit" (click)="selectUserForEdit(user)">Edit</button>
+                <button class="btn btn-sm" style="background-color: #3498db; color: white;" (click)="viewLoyalty(user.userId)">Loyalty</button>
                 <button class="btn btn-sm btn-delete" (click)="onDeleteUser(user.userId)">Delete</button>
               </td>
             </tr>
@@ -44,28 +45,60 @@
       </table>
     </div>
 
-    @if (selectedUserId) {
-      <div class="edit-card">
-        <h3>Update User Profile (ID: {{selectedUserId}})</h3>
-        <form (ngSubmit)="onUpdateUser()">
-          <div class="form-group">
-            <label for="edit-name">Name</label>
-            <input type="text" id="edit-name" name="name" [(ngModel)]="updateData.name" />
-          </div>
-          <div class="form-group">
-            <label for="edit-contact">Contact Number</label>
-            <input type="text" id="edit-contact" name="contactNumber" [(ngModel)]="updateData.contactNumber" />
-          </div>
-          <div class="form-group">
-            <label for="edit-password">New Password</label>
-            <input type="password" id="edit-password" name="password" [(ngModel)]="updateData.password" placeholder="Leave blank to keep unchanged" />
-          </div>
-          <div class="form-actions">
-            <button type="submit" class="btn btn-primary">Save Changes</button>
-            <button type="button" class="btn btn-secondary" (click)="selectedUserId = null">Cancel</button>
-          </div>
-        </form>
-      </div>
-    }
+    <div style="display: flex; flex-direction: column; gap: 2rem;">
+      @if (selectedUserId) {
+        <div class="edit-card">
+          <h3>Update User Profile (ID: {{selectedUserId}})</h3>
+          <form (ngSubmit)="onUpdateUser()">
+            <div class="form-group">
+              <label for="edit-name">Name</label>
+              <input type="text" id="edit-name" name="name" [(ngModel)]="updateData.name" />
+            </div>
+            <div class="form-group">
+              <label for="edit-contact">Contact Number</label>
+              <input type="text" id="edit-contact" name="contactNumber" [(ngModel)]="updateData.contactNumber" />
+            </div>
+            <div class="form-group">
+              <label for="edit-password">New Password</label>
+              <input type="password" id="edit-password" name="password" [(ngModel)]="updateData.password" placeholder="Leave blank to keep unchanged" />
+            </div>
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary">Save Changes</button>
+              <button type="button" class="btn btn-secondary" (click)="selectedUserId = null">Cancel</button>
+            </div>
+          </form>
+        </div>
+      }
+
+      @if (selectedUserLoyaltyId) {
+        <div class="edit-card">
+          <h3>Loyalty Details (ID: {{selectedUserLoyaltyId}})</h3>
+          @if (selectedUserLoyalty) {
+            <p><strong>Membership Tier:</strong> {{selectedUserLoyalty.membershipTier}}</p>
+            <p><strong>Points Balance:</strong> {{selectedUserLoyalty.pointsBalance}}</p>
+            <p><strong>Total Points Earned:</strong> {{selectedUserLoyalty.totalPointsEarned}}</p>
+            <p><strong>Total Points Redeemed:</strong> {{selectedUserLoyalty.totalPointsRedeemed}}</p>
+            
+            <hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 15px 0;">
+            
+            <h4>Award Bonus Points</h4>
+            <div class="form-group">
+              <label for="bonus-points">Points</label>
+              <input type="number" id="bonus-points" [(ngModel)]="bonusPoints" style="margin-bottom: 10px;">
+            </div>
+            <div class="form-group">
+              <label for="bonus-reason">Reason</label>
+              <input type="text" id="bonus-reason" [(ngModel)]="bonusReason" placeholder="Reason for award">
+            </div>
+            <div class="form-actions">
+              <button (click)="awardBonus()" class="btn btn-primary" style="background-color: #2ecc71;">Award Points</button>
+              <button (click)="selectedUserLoyaltyId = null" class="btn btn-secondary">Close</button>
+            </div>
+          } @else {
+            <p>Loading loyalty details...</p>
+          }
+        </div>
+      }
+    </div>
   </main>
 </div>

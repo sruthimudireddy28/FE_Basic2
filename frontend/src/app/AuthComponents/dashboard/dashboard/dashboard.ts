@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { AuthService } from '../../services/services/auth';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-dashboard',
@@ -21,7 +22,16 @@ export class DashboardComponent implements OnInit {
     password: ''
   };
 
-  constructor(private authService: AuthService) {}
+  // Loyalty Management Properties
+  selectedUserLoyaltyId: number | null = null;
+  selectedUserLoyalty: any = null;
+  bonusPoints: number = 100;
+  bonusReason: string = '';
+
+  constructor(
+    private authService: AuthService,
+    private http: HttpClient
+  ) {}
 
   ngOnInit() {
     this.loadUsers();
@@ -73,5 +83,46 @@ export class DashboardComponent implements OnInit {
   onLogout() {
     this.authService.logout();
     alert('Logged out');
+  }
+
+  // Loyalty Points Functions
+  viewLoyalty(userId: number) {
+    this.selectedUserLoyalty = null;
+    this.selectedUserLoyaltyId = userId;
+    this.bonusReason = '';
+    this.http.get<any>(`http://localhost:5000/api/loyalty/account/${userId}`).subscribe({
+      next: (res) => {
+        this.selectedUserLoyalty = res.data;
+      },
+      error: (err) => {
+        alert('Failed to load loyalty account for user ' + userId + '. Ensure they have enrolled in Loyalty Rewards.');
+        this.selectedUserLoyaltyId = null;
+      }
+    });
+  }
+
+  awardBonus() {
+    if (this.selectedUserLoyaltyId === null) return;
+    if (this.bonusPoints <= 0) {
+      alert('Points must be a positive number.');
+      return;
+    }
+    if (!this.bonusReason.trim()) {
+      alert('Please specify a reason for awarding bonus points.');
+      return;
+    }
+    const payload = {
+      points: this.bonusPoints,
+      reason: this.bonusReason
+    };
+    this.http.post<any>(`http://localhost:5000/api/loyalty/bonus/${this.selectedUserLoyaltyId}`, payload).subscribe({
+      next: (res) => {
+        alert('Bonus points awarded successfully!');
+        this.viewLoyalty(this.selectedUserLoyaltyId!); // Reload loyalty account info
+      },
+      error: (err) => {
+        alert('Failed to award bonus points: ' + (err.error?.message || 'Error occurred'));
+      }
+    });
   }
 }
