@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { PutHotel } from '../../models/put-hotel';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-update-hotel',
@@ -18,7 +18,7 @@ export class UpdateHotel {
   // Use model directly (not any)
   hotel: PutHotel = {};
 
-  constructor(private http: HttpClient, private route: ActivatedRoute) {}
+  constructor(private http: HttpClient, private route: ActivatedRoute, private router: Router) {}
 
   ngOnInit() {
     const idParam = this.route.snapshot.paramMap.get('id');
@@ -67,6 +67,7 @@ export class UpdateHotel {
       .subscribe({
         next: () => {
           alert('Hotel updated successfully');
+          this.router.navigate(['/hotels']);
         },
         error: (err) => {
           console.log(err);

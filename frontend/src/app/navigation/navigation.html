@@ -4,9 +4,11 @@
         @if (isLoggedIn) {
             <li><a routerLink="hotels">Hotels</a></li>
             <li><a routerLink="hotel-search">Search Hotels</a></li>
-            <li><a routerLink="my-bookings">My Bookings</a></li>
-            <li><a routerLink="my-payments">My Payments</a></li>
-            <li><a routerLink="loyalty">Loyalty Rewards</a></li>
+            @if (!isAdmin) {
+                <li><a routerLink="my-bookings">My Bookings</a></li>
+                <li><a routerLink="my-payments">My Payments</a></li>
+                <li><a routerLink="loyalty">Loyalty Rewards</a></li>
+            }
             
             @if (isAdmin) {
                 <li><a routerLink="create-hotel">Create Hotel</a></li>

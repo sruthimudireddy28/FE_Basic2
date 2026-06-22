@@ -47,10 +47,12 @@
             </div>
 
             <div class="card-actions">
-              @if (r.isAvailable) {
-                <a [routerLink]="['/create-booking', hotelId, r.roomId]" class="card-btn book-btn">Book Room</a>
-              } @else {
-                <span class="card-btn unavailable-btn">Not Available</span>
+              @if (!isAdmin) {
+                @if (r.isAvailable) {
+                  <a [routerLink]="['/create-booking', hotelId, r.roomId]" class="card-btn book-btn">Book Room</a>
+                } @else {
+                  <span class="card-btn unavailable-btn">Not Available</span>
+                }
               }
               @if (isAdmin) {
                 <a [routerLink]="['/update-room', r.roomId]" class="card-btn">Edit</a>

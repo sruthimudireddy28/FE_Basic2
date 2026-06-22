@@ -14,34 +14,36 @@
     <div class="cards-grid">
       @for(s of hotels; track s.hotelId) {
         <div class="hotel-card">
-          @if (s.imageUrl) {
-            <img [src]="s.imageUrl" alt="{{s.name}}" class="hotel-image">
-          } @else {
-            <div class="hotel-image-placeholder">No Image</div>
-          }
-          <div class="hotel-info">
-            <h3>{{s.name}}</h3>
-            <p class="location">{{s.city}}, {{s.state}}, {{s.country}}</p>
-            <p class="description">{{s.description}}</p>
-            @if (s.amenities && s.amenities.length > 0) {
-              <p class="amenities">
-                <strong>Amenities:</strong> 
-                @for (am of s.amenities; track am.amenityId; let isLast = $last) {
-                  <span>{{am.name}}{{!isLast ? ', ' : ''}}</span>
-                }
-              </p>
+          <a [routerLink]="['/rooms-by-hotel', s.hotelId]" style="text-decoration: none; color: inherit; display: flex; flex-direction: column; flex-grow: 1;">
+            @if (s.imageUrl) {
+              <img [src]="s.imageUrl" alt="{{s.name}}" class="hotel-image">
+            } @else {
+              <div class="hotel-image-placeholder">No Image</div>
             }
-            <p class="rating">Rating: {{s.rating}}/5 ({{s.totalReviews}} reviews)</p>
-            
-            <div class="card-actions">
-              <a [routerLink]="['/available-rooms', s.hotelId]" class="card-btn">View Available Rooms</a>
-              <a [routerLink]="['/rooms-by-hotel', s.hotelId]" class="card-btn">View All Rooms</a>
-              <a [routerLink]="['/hotel-reviews', s.hotelId]" class="card-btn">Reviews</a>
-              @if (isAdmin) {
-                <a [routerLink]="['/update-hotel', s.hotelId]" class="card-btn">Edit</a>
-                <a [routerLink]="['/delete-hotel', s.hotelId]" class="card-btn delete-btn">Delete</a>
+            <div class="hotel-info">
+              <h3>{{s.name}}</h3>
+              <p class="location">{{s.city}}, {{s.state}}, {{s.country}}</p>
+              <p class="description">{{s.description}}</p>
+              @if (s.amenities && s.amenities.length > 0) {
+                <p class="amenities">
+                  <strong>Amenities:</strong> 
+                  @for (am of s.amenities; track am.amenityId; let isLast = $last) {
+                    <span>{{am.name}}{{!isLast ? ', ' : ''}}</span>
+                  }
+                </p>
               }
+              <p class="rating">Rating: {{s.rating}}/5 ({{s.totalReviews}} reviews)</p>
             </div>
+          </a>
+          
+          <div class="card-actions" style="margin-top: 10px;">
+            <a [routerLink]="['/available-rooms', s.hotelId]" class="card-btn">View Available Rooms</a>
+            <a [routerLink]="['/rooms-by-hotel', s.hotelId]" class="card-btn">View All Rooms</a>
+            <a [routerLink]="['/hotel-reviews', s.hotelId]" class="card-btn">Reviews</a>
+            @if (isAdmin) {
+              <a [routerLink]="['/update-hotel', s.hotelId]" class="card-btn">Edit</a>
+              <a [routerLink]="['/delete-hotel', s.hotelId]" class="card-btn delete-btn">Delete</a>
+            }
           </div>
         </div>
       }

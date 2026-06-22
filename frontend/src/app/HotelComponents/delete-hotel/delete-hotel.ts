@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 
 export interface ApiResponse {
   success: boolean;
@@ -21,7 +21,7 @@ export class DeleteHotel {
   hotelId: number = 0;
   message: string = '';
 
-  constructor(private client: HttpClient, private route: ActivatedRoute) {}
+  constructor(private client: HttpClient, private route: ActivatedRoute, private router: Router) {}
 
   ngOnInit() {
     const idParam = this.route.snapshot.paramMap.get('id');
@@ -42,7 +42,8 @@ export class DeleteHotel {
       .subscribe({
         next: (res) => {
           console.log(res);
-          this.message = res.message;
+          alert('Hotel deleted successfully');
+          this.router.navigate(['/hotels']);
         },
         error: (err) => {
           console.log(err);
